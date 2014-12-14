@@ -3,10 +3,11 @@ title: Carolyn Dew | UX Design and Research
 email: carolyndew@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I&rsquo;m a UX/graphic designer with experience in web and print design, with particular experience serving nonprofit and socially responsible businesses.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+baseurl: "/carodew.github.io" # the subpath of your site, e.g. /blog/
+# url: "http://127.0.0.1:4000" # the base hostname & protocol for the local site.
+url: https://github.com/carodew/ # the base hostname & protocol for the remote site. 
 twitter_username: carodew
-# github_username:  jekyll
+github_username:  carodew
 
 # Build settings
 markdown: kramdown
