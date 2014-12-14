@@ -55,15 +55,23 @@ $on-laptop:        800px;
 // }
 /* ================== Dev Helpers // EOF ================== */
 
+@import
+
+// Font Awesome Stylesheets
+
+				"fa-variables",
+				"fa-mixins",
+				"fa-path",
+				"fa-core",
+				"fa-bootstrap",
+				"fa-extras",
+				"fa-icons",
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-			//	"base",
-			//	"layout",
-			//	"syntax-highlighting",
+
 				"mixins-vars",
-				"css-reset.scss", 
+				"css-reset", 
 				"core-typography",
 				"skill-pills",
 				"header",
@@ -77,5 +85,3 @@ $on-laptop:        800px;
 				"social",
 				"images",
 				"print"
-
-//@import '../font-awesome/scss/font-awesome.scss';
