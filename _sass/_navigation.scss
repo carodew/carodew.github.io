@@ -1,0 +1,101 @@
+.round-nav-button {
+	display: block;
+	width: 2.2em;
+	height: 2.2em;
+	border-radius: 50%;
+	border: 1px solid lighten($coral, 5%);
+	vertical-align: middle;
+	background: $backgroundColor;
+	@include pinkGlow;
+	@include commonTransition(color, 0.3s);
+	color:	lighten($coral, 10%);
+	text-align: center;
+	i {
+		margin-top: .5em;
+		display: block;
+	}
+	&:hover { 
+		color:	$coral;
+		border-color: $coral;
+	}
+}
+
+.back {
+	margin: 1em 0.5em 1em $pageMargin;
+	//font-weight: bold;
+	padding-top: 0;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 15px;
+	right: 20px;
+	z-index: 1050;
+}
+
+.more {
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	right: -1px; // not sure why this aligns things perfectly, but it does
+	padding: 0.4em 0.6em 0.3em;
+	margin: 0;
+	font-size: 1.3em;
+	line-height: 1em;
+	border: 1px solid;
+	background-color: #e7e7e7;
+	background-color: rgba(#e7e7e7, 0.8);
+	&:hover {
+		color: $cyan;
+		@include commonTransition (color, 0.3s);
+	}
+}
+
+
+// Previous Next Links
+
+.prev-next-container {
+	position: fixed;
+	top: 30%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.previous, .next {
+	position:absolute;
+	display: inline-block;
+	margin: 10px;
+	top: 50%;
+}
+
+.previous {
+	left: 20px;
+}
+
+.next {
+	right: 20px;
+}
+
+// Back to Top
+.back-up-static {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 2.3em;//0.83em; 
+	width: 14px;
+	height: 14px;
+	*margin-right: 0.3em;
+	margin-right: 1.5em;
+	margin-top: 0.83em;
+	line-height: 14px;
+	vertical-align: text-top;
+	text-indent: -9999px;
+	background:	url("../img/glyphicons-halflings.png") no-repeat -288px -144px ;
+	opacity: 0.25;
+	@include commonTransition (opacity, 0.3s);
+	&:hover {
+		 opacity: 0.5;
+	}
+}
+

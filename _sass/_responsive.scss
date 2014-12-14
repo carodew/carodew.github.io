@@ -1,0 +1,158 @@
+
+/* ====== Visible/hidden classes: phone ====== */
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.hidden-accessible {
+	position: absolute;
+	left: -9999em;
+}
+
+.hidden-phone, .thumbnail {
+	display: none !important;
+}
+
+.visible-phone {
+	display: inherit !important;
+}
+
+.visible-tablet {
+	display: none !important; 
+}
+
+.visible-desktop {
+	display: none !important;
+}
+
+.visible-print {
+	display: none;
+}
+
+/* ====================== portrait tablets only ====================== */
+
+@media screen and (min-width: $breakpoint1) and (max-width: $breakpoint2) { 
+	.hidden-tablet {
+		display: none !important;
+	}
+	.hidden-phone {
+		display: inherit !important;
+	}
+	.visible-tablet {
+		display: inherit !important;
+	}
+	.visible-desktop {
+		display: none !important ;
+	}
+	.visible-phone {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: $breakpoint1) { /*Breakpoint 1 - break from single column to thumbnails*/
+
+	.section-label {
+		width: (242%/1034*100); /*242/1034*/
+		*width: 23.351063829787233%;
+		h2 {
+			text-align: right;
+		}
+	}
+	
+	.portfolio, .contact, .resume, .project-detail, .skills {
+		border-top: 1px solid #000000;
+	}
+	
+	.section-content {
+		margin-left: (242%/1034*100); /*242/1034*/
+		width: (792%/1034*100); /*100-margin-left*/
+		max-width: (828em/16); // limits portfolio to four projects in a row 
+	}
+	 .ux-project {
+			display: inline-block;
+			*display: inline;
+			*zoom:1;
+			width: 30%; //31.7333333333333%;//19.2708333333333em;	//308.33px
+			margin-right: 2.4%;// 1.5em; // (1.5*16) / 973
+			// to determine thumbnail width: container-width - (margin width * (# of projects	- 1)) / # of projects in row
+			// (100% - (2.4 *2)) / 3
+			// (100% - 4.8) / 3 = 31.7333333333333
+	}
+		
+	.project-title {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		bottom: 5px;
+		left: 5px;
+		font-family: $serifStack;
+		color: #ffffff;
+		margin-bottom: 0;
+		font-size: 0.9em;
+		font-weight: normal;
+		opacity: 0;
+		background: $coral;
+		background: rgba($coral,0.93);
+		@include commonTransition(opacity, 0.3s); 
+				p {
+				margin: 0.3em;
+				margin-left: 1.3em;
+				position: absolute; 
+				text-align: right;
+				bottom: 0;
+				right:0;
+				}
+			&:hover {
+					opacity:1;
+					color: #ffffff;
+		}
+	}
+	.back-up {
+			position: static;
+			margin-top: 1.6em;
+		} 
+		
+//		 Project page: 2 column styling
+
+ 
+}/* break to thumbnails // EOF */
+
+@media screen and (min-width: 980px) { /* Position caption information on the side*/
+	
+		// .project-detail {
+			// .caption {
+				// position: absolute;
+				// margin-top: 0; 
+				// top: 0;
+				// left: -30%;
+				// right: 105%;
+				// text-align: right;
+					// h2 {
+						// text-align:right;
+					// }
+					// p:before {
+						 // display: none;
+				// }
+		// }
+ // } 
+	.hidden-phone {
+		display:inherit !important;
+	}
+	.hidden-desktop {
+		display: none !important;
+	}
+	.hidden-tablet {
+		display:inherit !important;
+	}
+	.visible-desktop {
+		display: inherit !important;
+	}
+	.visible-phone {
+		display: none !important;
+	}
+	.visible-tablet {
+		display: none !important;
+	}
+}

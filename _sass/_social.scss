@@ -1,0 +1,44 @@
+/* ================== Contact ================== */
+
+.social {
+		margin: 3em 0;
+	}
+.tw, .li, .pin {
+		display:inline-block;
+		height: 40px;
+		width: 40px;
+		-zoom: 1;
+		-display: inline;
+		text-indent: -9999px;
+		@include borderRadius;
+		 @include commonTransition(background, 0.3s);
+		margin-right: 1em;
+		// -webkit-box-shadow: inset 3px 3px 24px 0 rgba(rgba($coral,1), 0.5);
+			 // -moz-box-shadow: inset 3px 3px 24px 0 rgba(rgba($coral,1), 0.5);
+						// box-shadow: inset 0 0 32px 0 rgba(rgba($coral,1), 0.5);
+		@include pinkInset;
+	}
+.tw {
+		background-image: lighten($coral, 10%) url('img/social-sprite.png') no-repeat left center;
+		background: rgba($coral, 0.5) url('img/social-sprite.png') no-repeat left center; 
+		&:hover {
+			background: $coral url('img/social-sprite.png') no-repeat left center;
+			background: rgba($coral, 0.8) url('img/social-sprite.png') no-repeat left center; 
+		}
+} 
+.li {
+		background: lighten($coral, 10%) url('img/social-sprite.png') no-repeat -40px	center;
+		background: rgba($coral, 0.5) url('img/social-sprite.png') no-repeat -40px center; 
+		&:hover {
+			background: $coral url('img/social-sprite.png') no-repeat -40px	center;
+			background: rgba($coral, 0.8) url('img/social-sprite.png') no-repeat -40px center; 
+		}
+}
+.pin {
+		background: lighten($coral, 10%) url('img/social-sprite.png') no-repeat right center; 
+		background: rgba($coral, 0.5) url('img/social-sprite.png') no-repeat right center; 
+		&:hover {
+			background: $coral url('img/social-sprite.png') no-repeat right center; 
+			background: rgba($coral, 0.8) url('img/social-sprite.png') no-repeat right center; 
+		}
+}

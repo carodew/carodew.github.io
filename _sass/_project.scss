@@ -1,0 +1,64 @@
+/* ================== Project	================== */
+
+.project-detail {
+	.project {
+		@media screen and ( min-width: $breakpoint1 ) {
+			width: 90%;
+			max-width: 40em;
+		}
+		&:hover {
+			color: #000000;
+		}
+	}
+		h2 {
+			margin-left: 0;
+		}
+
+	// .caption {
+		// position: static;
+		// background: none;
+		// opacity: 1;
+		// margin: 0;
+		// margin-top: -1em;
+		// top:auto;
+		// bottom:0;
+		// left:auto;
+		// right: 0;
+	// } 
+	.project-meta {
+		display: block;
+		margin-left: 0;
+		line-height: 1.8em;
+		ul li {
+			margin-bottom: 0.6em;
+		}
+		a {
+			//display: block;
+			padding-top: 1em;
+		}
+		.skill-pills {
+			@media screen and ( min-width: $breakpoint1 ) {
+				display: inline;
+			}
+		}
+	}
+		h2 {
+			font-size: 1.2em;
+			margin: 0 0 1.2em;
+		}
+		p {
+			margin-bottom: 2em;
+			line-height: 1.6em;
+			font-family: $serifStack;
+			strong {
+				font-family: $sansStack;
+				vertical-align: baseline;
+			}
+		}
+	}
+	.project-contributions	{
+			strong, ul, li {
+			vertical-align: baseline;
+		}
+	}
+/* ================== Project // EOF ================== */

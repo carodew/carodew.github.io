@@ -1,0 +1,124 @@
+/* ================== Header & Navbar ================== */
+
+header {
+	background-color: transparent;
+	position: relative;
+	margin: 0 1.5em;
+	color: $darkGray;
+	font-family: $sansStack;
+	h1 {
+		// margin: 0 auto;
+		line-height: 1.5em;
+		font-size: 100%;
+		font-weight: normal;
+		color: #333;
+		border-right: 0 none;
+		width: $leftColumn;
+		display: inline-block;
+		*display: inline;
+		*zoom: 1;
+		font-family: $sansStack;
+		&:after {
+			border: 5px solid #000000;
+			content: "";
+			height: 30px;
+			left: $leftColumn;
+			position: absolute;
+			top: 0;
+		}
+	}
+}
+
+.logotype {
+	display: inline-block;
+	-zoom: 1;
+	-display: inline;
+	width: ($leftColumn - 1em);
+	max-width: ($leftColumn - 1em);
+	margin: 0.6em 0;
+}
+
+.roles {
+	display: none;
+	@media screen and (min-width: (675em/16)) {
+	display:inline-block;
+	*display: inline;
+	*zoom:1;
+	margin: 2em 2em 1em;
+	list-style: none outside none;
+	font-family: $sansStack;
+	font-size: 0.8em;
+	li {
+		display: inline;
+		margin-right: 1em;
+		font-style:italic;
+		}
+	}
+} 
+
+nav {
+		margin-left: -0.6em;
+		overflow: hidden;
+		font-family: $sansStack;
+		ul {
+			position: relative;
+			left: 0;
+			display: block;
+			clear:both;
+			margin: 0 10px 0 0;
+			font-family: $sansStack;
+			list-style: none;
+			li + li { margin-top: 0; }
+			> li {
+					float: left;
+					> a, a.contact {
+						display: block;
+						float: none;
+						padding: 0.3em 0.6em;
+						border-top:0;
+						margin-top:0;
+						color: $coral;
+						text-decoration: none;
+						text-shadow: none;
+						font-style:italic;
+						@include commonTransition (color, 0.3s); 
+						&:hover {
+							color:$cyan;
+						}
+				 }
+			} 
+		}
+	}
+	
+.global-nav, 
+.footer-nav {
+	font-weight: 400;
+	font-size: 1.1em;
+} 
+.portfolio-nav {
+	margin-left: 0.15em; // optical aligment
+}
+
+.about 
+.portfolio-nav { display: none; }
+
+.portfolio-nav > li > a { font-size: 0.9em; }
+
+
+.p-design .li-design > a, 
+.p-about .li-about	> a,
+.p-contact .li-contact > a { color: $cyan; }
+
+.p-about .portfolio-nav, 
+.p-contact .portfolio-nav, 
+.p-project .portfolio-nav { display: none; }
+
+
+.proprietary-statement { 
+	padding: 1rem;
+	margin: 1rem;
+	max-width: 50em;
+	background-color: $lightCoral;
+	border: 1px dashed $coral;
+	@include borderRadius(1rem);
+}

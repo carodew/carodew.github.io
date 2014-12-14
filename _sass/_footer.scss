@@ -1,0 +1,61 @@
+/* ================== Footer ================== */
+
+footer {
+	margin-top: 3em;
+	padding: 1em 1.5em;
+	color: #888888;
+	@include pinkGlow;
+	border-top: 1px solid lighten($coral, 5%);
+	font-family: $sansStack;
+}
+
+#bottom-nav {
+		padding-top: 10px;
+		@media screen and (min-width: $breakpoint1) {
+			width: 33%;
+			display: inline-block;
+		*display: inline;
+		*zoom: 1;
+		}
+
+	}
+
+.footer-social {
+	margin: 10px 0;
+	@media screen and (min-width: $breakpoint1) {
+		width: 33%;
+		display: inline-block;
+		*display: inline;
+		*zoom: 1;
+	}
+	.tw, .li, .pin { 
+		width: 30px;
+		height: 30px;
+		background-size: (120px*30/40) (40px*30/40);
+		&:hover {
+			background-size: (120px*30/40) (40px*30/40);
+		}
+	}
+	.li {
+		background-position: center; 
+		&:hover {
+			background-position: center;
+		}
+	}
+	
+}
+
+.copyright {
+	// font-size: 0.9em;
+	@media screen and (min-width: $breakpoint1) {
+		width: 33%;
+		display: inline-block;
+		*display: inline;
+		*zoom: 1;
+	}
+	font-style: italic;
+	margin: 1.6em 0 0.6em;
+	font-size: 0.8em;
+}
+
+/* ================== Footer // EOF ================== */

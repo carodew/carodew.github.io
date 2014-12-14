@@ -1,0 +1,51 @@
+img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	background-color: #fff;
+
+}
+
+figcaption {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #888888;
+	letter-spacing: 0.1em;
+	@media screen and (min-width: $breakpoint1) {
+		position: absolute;
+		top: 0;
+		left: -24.40426%;
+		width: 23.40426%;
+		text-align: right;
+	}
+}
+
+figure {
+	margin-bottom: 3rem;
+	margin-right: 0;
+	margin-left: 0;
+	@media screen and (min-width: $breakpoint1) { position: relative; }
+}
+
+.logotype img { background-color: transparent; }
+
+.project img {
+	width: 96%;
+	margin-bottom: 1rem;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+					box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.img-halfsies {
+	@media screen and ( min-width: 697px ){
+		width: 44.5%; 
+		height: auto; 
+		&:first-child { margin-right: 5%; }
+	}
+}

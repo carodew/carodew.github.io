@@ -1,0 +1,21 @@
+---
+layout: project
+permalink: /go-teach-magazine/
+short-title:  "<i>Go Teach</i> Magazine"
+long-title: "<i>Go Teach</i> Magazine"
+categories: editorial
+thumbnail: "goteach-cover-thumb.jpg"
+mobile-image: "goteach-cover-thumb.jpg"
+img-path: '../img/'
+---
+
+<figure><figcaption><cite>Go Teach</cite> magazine</figcaption>
+<img src="{{ page.img-path }}goteach-cover.jpg" alt="<i>Go Teach</i> magazine" />
+<img src="{{ page.img-path }}goteach-spread-1.jpg" alt=" " />
+<img src="{{ page.img-path }}goteach-spread-3.jpg" alt=" " />
+<img src="{{ page.img-path }}goteach-spread-4.jpg" alt=" " />
+<img src="{{ page.img-path }}goteach-spread-2.jpg" alt=" " />
+</figure>
+<div class="caption">
+	<h2><cite>Go Teach</cite> magazine</h2><p>The flagship publication of the Future Educators Association<sup>&reg;</sup> provides inspiration and information about careers in education to high school&nbsp;students. </p>
+</div>

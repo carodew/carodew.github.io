@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<section class="portfolio local-only ">
+	<a href="#" class="back-up-static">Back to top</a>
+	<div class="section-label">
+		<h2 id="tehinterwebz">Proprietary</h2>
+	</div>
+	<div class="section-content">
+	
+		<a href="{{ post.permalink }}" class="project-thumbnail">
+			<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
+			<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
+		<div class="project-title hidden-phone">
+			<p>
+				{{ post.short-title }}
+			</p>
+		</div>
+		<div class="more visible-phone">
+			+
+		</div> 
+				</a>
+</section>
+
+<section class="portfolio">
+	<a href="#" class="back-up-static">Back to top</a>
+	<div class="section-label">
+		<h2 id="tehinterwebz">Screen</h2>
+	</div>
+	<div class="section-content">
+	
+		{% for post in site.categories.screen %}
+				<a href="{{ post.permalink }}" class="project-thumbnail">
+				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
+				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
+		<div class="project-title hidden-phone">
+			<p>
+				{{ post.short-title }}
+			</p>
+		</div>
+		<div class="more visible-phone">
+			+
+		</div> 
+				</a>
+		{% endfor %}
+</section>
+
+<section class="portfolio">
+	<a href="#" class="back-up-static">Back to top</a>
+	<div class="section-label">
+		<h2 id="marks">Marks</h2>
+	</div>
+	<div class="section-content">
+		{% for post in site.categories.marks %}
+				<a href="{{ post.permalink }}" class="project-thumbnail">
+				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
+				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
+		<div class="project-title hidden-phone">
+			<p>
+				{{ post.short-title }}
+			</p>
+		</div>
+		<div class="more visible-phone">
+			+
+		</div> 
+				</a>
+		{% endfor %}
+	</div>
+</section>
+
+<section class="portfolio">
+	<a href="#" class="back-up-static">Back to top</a>
+	<div class="section-label">
+		<h2 id="print">Print</h2>
+	</div>
+	<div class="section-content">
+							{% for post in site.categories.print %}
+				<a href="{{ post.permalink }}" class="project-thumbnail">
+				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
+				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
+		<div class="project-title hidden-phone">
+			<p>
+				{{ post.short-title }}
+			</p>
+		</div>
+		<div class="more visible-phone">
+			+
+		</div> 
+				</a>
+		{% endfor %}
+	</div>
+</section>
+
+<section class=" portfolio">
+	<a href="#" class="back-up-static">Back to top</a>
+
+	<div class="section-label">
+		<h2 id="editorial">Editorial</h2>
+	</div>
+	<div class="section-content">
+			{% for post in site.categories.editorial %}
+				<a href="{{ post.permalink }}" class="project-thumbnail">
+				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
+				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
+				<div class="project-title hidden-phone">
+					<p> 
+						{{ post.short-title }}
+					</p>
+				</div>
+				<div class="more visible-phone">
+					+
+				</div> 
+			</a>
+		{% endfor %}
+	</div>
+</section>
