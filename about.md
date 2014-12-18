@@ -71,9 +71,9 @@ What really drives me today is creating a user experience that purrs. When the v
 <li>HTML5</li>
 <li>CSS3</li>
 <li>Less/Sass</li>
-<li>Axure</li>
+<li>Axure RP</li>
 <li>Mustache</li>
-<li>Jekyll </li>
+<li>Jekyll</li>
 <li>Adobe CC</li>
 </ul>
 <h3>Working knowledge of: </h3>
