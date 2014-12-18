@@ -13,7 +13,3 @@ img-path: '../img/'
 This Cincinnati-based fiber artist needed a business card that also doubled as a mini-advertisement to pass out at art festivals. 
 
 I created a design that brings out the childlike nature of Katie&apos;s crocheted animals with bright colors and a playful layout. The thick cardstock and slab serif typeface mirror the hefty build of her creatures.
-
-<ul class="skill-pills">
-<li>graphic design</li>
-</ul> 
