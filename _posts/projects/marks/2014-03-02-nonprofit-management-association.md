@@ -9,13 +9,8 @@ mobile-image: "nma-logo.png"
 img-path: '../img/'
 ---
 
-<figure>
 <img src="{{ page.img-path }}nma-logo.png" alt="Nonprofit Management Assocation logo" />
-<figcaption>Nonprofit Management Association logo</figcaption>
-</figure>
-<div class="project-meta">
-<h2>Nonprofit Management Association logo</h2>
-<p>
-	A clean, contemporary mark representing the professionalism of this graduate student organization at Indiana University&rsquo;s School for Public and Environmental Affairs.
-</p>
-</div>
+
+Although <i>U.S. News & World Report</i> consistently ranks the Indiana University graduate program in nonprofit management as the top program in the nation, the graduate student association didn't have a logo that reflected the professionalism and expertise of its&nbsp;members. 
+
+I created a clean, contemporary mark that not only presented a polished identity for the group and tied into the brand colors of Indiana University to draw upon that connection. 

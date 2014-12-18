@@ -9,13 +9,6 @@ mobile-image: "globeface.png"
 img-path: '../img/'
 ---
 
-<figure>
 <img src="{{ page.img-path }}globeface.png" alt="Study Abroad Expo Icons"/>
-<figcaption>Study Abroad Expo&nbsp;Icons</figcaption>
-</figure>
-<div class="project-meta">
-	<h2>Study Abroad Expo&nbsp;Icons</h2>
-	<p>
-		This icon set celebrates the diverse people students can meet when studying abroad.
-	</p>
-</div>
+
+The study abroad office at the University of Cincinnati works to promote study abroad opportunities available to students. I created a set of icons that celebrates the diversity of people one can encounter while studying abroad, suitable for a variety of applications.
