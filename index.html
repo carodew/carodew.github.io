@@ -3,15 +3,14 @@ layout: default
 body-class: portfolio
 img-path: "../img"
 ---
-<p class="proprietary-statement">Since September 2013 I&apos;ve been working as an UX designer and researcher on proprietary, internal software for Turner Broadcasting Systems, Inc. Please <a href="{{site.url}}/about/index.html#contact">contact me</a> directly to learn more about these projects.</p>
 <section class="portfolio">
 	<a href="#" class="back-up-static">Back to top</a>
 	<div class="section-label">
-		<h2 id="tehinterwebz">Screen</h2>
+		<h2 id="tehinterwebz">UX/UI</h2>
 	</div>
 	<div class="section-content">
 	
-		{% for post in site.categories.screen %}
+		{% for post in site.categories.ux %}
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
