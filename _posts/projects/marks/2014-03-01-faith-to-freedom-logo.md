@@ -9,9 +9,7 @@ mobile-image: "Faith-to-Freedom-Logo.png"
 img-path: '../img/'
 ---
 
-<figure>
 <img src="{{ page.img-path }}Faith-to-Freedom-Logo.png" alt="Faith to Freedom logo" />
-<figcaption>Faith to Freedom logo</figcaption></figure>
-<div class="project-meta">
-	<h2>Faith to Freedom logo</h2><p>This logo mark represents a children&rsquo;s educational program in collaboration between various Cincinnati congregations, Happen, Inc., and The National Underground Railroad Freedom Center.</p>
-</div>
+Faith to Freedom was a summer program co-produced by the National Underground Railroad Freedom Center in Cincinnati, Happen, Inc. (an arts education nonprofit), and various area congregations. The program explored the role of faith in the fight for freedom from slavery. 
+
+I created a program logo that typographically represented the relationship between the two concepts, as well as incorporating the flame icon from the Freedom Center's own logo. 
