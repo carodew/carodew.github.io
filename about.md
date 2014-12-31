@@ -10,12 +10,8 @@ img-path: "../img"
 	<h2>About</h2>
 </div>
 <div class="section-content">
-
-I&rsquo;ve always had a knack for keeping it simple, so when I started out as an in-house graphic designer, I found myself jumping into the realm of user experience before I even knew the term existed. All I knew was that asking a client to click through seven webpages of gibberish just to sign up for an email alert wasn&rsquo;t really going to encourage sign ups. Someone had to fix it. And that someone was me.
-
-As I dove in, I kept teaching myself more, starting with HTML and CSS, then moving on to more abstract concepts such as information architecture, analytics, user flow, wireframes, user testing, emotional design &mdash; basically, if it was something a project needed, I was willing to give it a shot. (And I still am.)
-
-What really drives me today is creating a user experience that purrs. When the visual design, information, copy, and emotional appeal align just right, you get that experience. The project benefits, the company benefits, and people (users and employees) feel optimistic about what the future holds. That&rsquo;s a pretty satisfying feeling.
+<p>I've been doing UX and UI design for the past three years, with six years work experience previously as a graphic designer. I focus on collaborative techniques and creating healthy team dynamics. I also have a strong background in the nonprofit sector.</p> 
+<p>I also do things in my spare time. Specifically, I practice and teach <a href="http://en.wikipedia.org/wiki/Salsa_dance_%28Cuban_style%29">Cuban salsa dancing</a>, previously in a leadership role with Ritmos Latinos in Bloomington, Indiana and now as a member of the SALSAtlanta performance team. I also spend a considerable amount of time playing with bits of string, some of which turns into knitted creations.</p>
 
 <div class="a-resume" >
 <a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
@@ -24,14 +20,9 @@ What really drives me today is creating a user experience that purrs. When the v
 </section>
 <section class="contact">
 <div class="section-label">
-	<h2>Contact</h2>
+	<h2>Connect</h2>
 </div>
 <div class="section-content">
-	<!-- <div class="social">
-	<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
-	<a class="tw" id="twitter" href="https://twitter.com/carodew" title="Design-related tweets mixed with me trying to be funny." onclick="_gaq.push(['_trackEvent', 'Social','Click', 'Twitter']);">Twitter</a>
-	<a class="pin" id="pinterest" href="http://pinterest.com/caslondew/" title="See what inspires and entertains me." onclick="_gaq.push(['_trackEvent', 'Social','Click','Pinterest']);">Pinterest</a>
-	</div> -->
 	<p>
 		Carolyn Dew
 		<br>
@@ -39,6 +30,11 @@ What really drives me today is creating a user experience that purrs. When the v
 		<br>
 		<a href="mailto:carolyndew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyndew@gmail.com</a>
 	</p>
+<div class="social">
+<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
+<a class="tw" id="twitter" href="https://twitter.com/carodew" title="Design-related tweets mixed with me trying to be funny." onclick="_gaq.push(['_trackEvent', 'Social','Click', 'Twitter']);">Twitter</a>
+<a class="pin" id="pinterest" href="http://pinterest.com/caslondew/" title="See what inspires and entertains me." onclick="_gaq.push(['_trackEvent', 'Social','Click','Pinterest']);">Pinterest</a>
+</div>
 </div>
 </section>
 <section class="skills">
