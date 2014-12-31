@@ -15,10 +15,10 @@ layout: default
 			{{ content }}
 			<div class="prev-next-nav">
 			  {% if page.previous.url %} 
-			  <span class="prev">Previous: <a href="{{page.previous.url}}">{{page.previous.long-title}}</a> </span>
+			  <span class="prev">Previous: <a href="{{page.previous.url}}">{{page.previous.short-title}}</a> </span>
 			  {% endif %} 
 			  {% if page.next.url %} 
-			  <span class="next">Next: <a href="{{page.next.url}}">{{page.next.long-title}}</a></span>
+			  <span class="next">Next: <a href="{{page.next.url}}">{{page.next.short-title}}</a></span>
 			  {% endif %} 
 			</div>
 		</div>
