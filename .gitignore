@@ -4,3 +4,5 @@ index-LOCAL-ONLY.html
 proprietary/
 _removed/
 _drafts/
+_config-local.yml
+jekyll-command.txt
