@@ -3,7 +3,7 @@ layout: project
 permalink: /pdk-renewals/
 short-title:  "PDK membership renewals"
 long-title: "PDK International Membership Renewals"
-categories: screen
+categories: ux
 thumbnail: "renewal-thumb.gif"
 mobile-image: "renewals-port-1.gif"
 img-path: '../img/'

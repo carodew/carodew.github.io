@@ -54,27 +54,26 @@
 
 // Previous Next Links
 
-.prev-next-container {
-	position: fixed;
-	top: 30%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
+.prev-next-nav {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid $lightGray;
+	font-size: 0.8em;
+ }
 
 .previous, .next {
-	position:absolute;
-	display: inline-block;
-	margin: 10px;
-	top: 50%;
+	//position: absolute;
+	//display: inline-block;
+	//margin: 10px;
+	//top: 50%;
 }
 
 .previous {
-	left: 20px;
+	//left: 20px;
 }
 
 .next {
-	right: 20px;
+	float: right;
 }
 
 // Back to Top

@@ -1492,7 +1492,7 @@ h2 {
   margin-left: 1.5em; }
 
 p {
-  margin: 0 0 10px;
+  margin-bottom: 1em;
   font-family: "ff-tisa-web-pro", "Georgia", "Times", serif; }
 
 sub, sup {
@@ -1567,7 +1567,7 @@ em, i, cite {
   .skill-pills {
     font-family: "ff-tisa-sans-web-pro", "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
     list-style: none;
-    margin: 0 0.1em;
+    margin: 0 0.1em 2em;
     cursor: default;
     line-height: 1em;
     vertical-align: baseline; }
@@ -1610,7 +1610,7 @@ header {
     header h1:after {
       border: 5px solid #000000;
       content: "";
-      height: 30px;
+      height: 2.5rem;
       left: 10.625em;
       position: absolute;
       top: 0; }
@@ -1699,7 +1699,7 @@ nav {
 
 .proprietary-statement {
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
   max-width: 50em;
   background-color: #ffe8e5;
   border: 1px dashed #FF7466;
@@ -1857,24 +1857,14 @@ body {
     -o-transition: color 0.3s;
     transition: color 0.3s; }
 
-.prev-next-container {
-  position: fixed;
-  top: 30%;
-  bottom: 0;
-  left: 0;
-  right: 0; }
-
-.previous, .next {
-  position: absolute;
-  display: inline-block;
-  margin: 10px;
-  top: 50%; }
-
-.previous {
-  left: 20px; }
+.prev-next-nav {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #C5BDC1;
+  font-size: 0.8em; }
 
 .next {
-  right: 20px; }
+  float: right; }
 
 .back-up-static {
   display: inline-block;
@@ -2141,7 +2131,6 @@ body {
   font-size: 1.2em;
   margin: 0 0 1.2em; }
 .project-detail p {
-  margin-bottom: 2em;
   line-height: 1.6em;
   font-family: "ff-tisa-web-pro", "Georgia", "Times", serif; }
   .project-detail p strong {
