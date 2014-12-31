@@ -4,13 +4,11 @@ body-class: body-portfolio
 img-path: "../img"
 ---
 <section class="portfolio">
-	<a href="#" class="back-up-static">Back to top</a>
 	<div class="section-label">
 		<h2 id="tehinterwebz">UX/UI</h2>
 	</div>
 	<div class="section-content">
-	
-		{% for post in site.categories.ux %}
+		{% for post in site.categories.ux reversed %}
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
@@ -27,12 +25,11 @@ img-path: "../img"
 </section>
 
 <section class="portfolio">
-	<a href="#" class="back-up-static">Back to top</a>
 	<div class="section-label">
 		<h2 id="marks">Marks</h2>
 	</div>
 	<div class="section-content">
-		{% for post in site.categories.marks %}
+		{% for post in site.categories.marks reversed %}
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
@@ -50,12 +47,11 @@ img-path: "../img"
 </section>
 
 <section class="portfolio">
-	<a href="#" class="back-up-static">Back to top</a>
 	<div class="section-label">
 		<h2 id="print">Print</h2>
 	</div>
 	<div class="section-content">
-							{% for post in site.categories.print %}
+							{% for post in site.categories.print reversed %}
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
@@ -73,13 +69,11 @@ img-path: "../img"
 </section>
 
 <section class=" portfolio">
-	<a href="#" class="back-up-static">Back to top</a>
-
 	<div class="section-label">
 		<h2 id="editorial">Editorial</h2>
 	</div>
 	<div class="section-content">
-			{% for post in site.categories.editorial %}
+			{% for post in site.categories.editorial reversed %}
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
