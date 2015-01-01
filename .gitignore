@@ -1,7 +1,7 @@
 _site/
 .sass-cache/
 index-LOCAL-ONLY.html
-proprietary/
+_proprietary/
 _removed/
 _drafts/
 _config-local.yml
