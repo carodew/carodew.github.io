@@ -12,6 +12,7 @@ nav,
 section { display: block; }
 
 html {
+	font-family: $serifStack;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -19,44 +20,33 @@ html {
 
 /* ================== Core Typography: throughout site ================== */
 
+// Headers
 
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
+	font-family: $sansStack;
 	line-height: 1.5em;
 	margin: 1.5em 0 0.6em 0;
-}
+} 
 
-h2, h3 {
-	font-size: inherit;
+h1 { 
+	font-size: 1.36em; 
 	font-weight: bold;
 }
 
-h2 { margin-left: $pageMargin; }
+h2 { 
+	font-size: 1.24em;
+}
+
+// paragraphs and lists and block level things
 
 p {
 	margin-bottom: 1em;
-	font-family: $serifStack;
 }
-
-sub, sup {
-	position: relative;
-	font-size: 75%;
-	line-height: 0;
-	vertical-align: baseline;
-}
-
-sup { top: -0.5em; }
-
-sub { bottom: -0.25em; }
-
-.nowrap { white-space: nowrap; }
 
 ul, 
 ol {
 	padding: 0;
 	margin: 0 0 (10em/16) (25em/16);
-	font-family: $serifStack;
-
 }
 
 ul { list-style: disc outside; }
@@ -75,6 +65,8 @@ ul.unstyled, ol.unstyled {
 	list-style: none;
 }
 
+// links
+
 a {
 	color: $coral;
 	text-decoration: none;
@@ -91,6 +83,21 @@ a {
 		outline-offset: -2px;
 	}
 }
+
+// inline things
+
+sub, sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+}
+
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+.nowrap { white-space: nowrap; }
+
 
 small { font-size: 85%; }
 
