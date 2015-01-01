@@ -31,6 +31,8 @@ header nav {
 	overflow: hidden;
 	 h2 {
 		margin-top: 0.6em;
+		font-size: 1em;
+		font-weight: bold;
 			&:before {
 			/*pull the anchor link out from behind the fixed header */
 			display: block;
