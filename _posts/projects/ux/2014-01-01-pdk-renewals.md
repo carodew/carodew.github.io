@@ -34,12 +34,10 @@ I created visual design for the direct mail and email campaigns, working closely
 </figure>
 <figure>
 	<img src="{{ page.img-path }}task-flow-photo.jpg" class="img-halfsies">
-	<figcaption>Task flow sketches</figcaption>
-</figure>
-<figure> 
 	<img src="{{ page.img-path }}renewal-mockup-4.jpg" class="img-halfsies">
-	<figcaption>HTML mock-ups</figcaption>
+	<figcaption>Sketches and Mock-ups</figcaption>
 </figure>
+
 <figure>
 	<img src="{{ page.img-path }}renewals-port-2.gif" alt="Membership Renewal Email" />
 	<figcaption>
