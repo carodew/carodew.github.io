@@ -57,7 +57,7 @@ I created visual design for the direct mail and email campaigns, working closely
 <ul class="skill-pills">
 	<li>problem analysis</li>
 	<li>visual design</li>
-	<li>facilitating discussions</li>
+	<li>facilitating design discussions</li>
 	<li>HTML email templates</li>
 	<li>Google Analytics</li>
 	<li>user flows</li>
