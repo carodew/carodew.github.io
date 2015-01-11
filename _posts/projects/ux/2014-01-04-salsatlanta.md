@@ -14,7 +14,7 @@ SALSAtlanta hosts one of the biggest Cuban dance festivals within the U.S. every
 
 ##What I Did##
 
-Within a tight timeline, I reorginzed the site's content into wireframes and reviewed those with the conference organizer. From those wireframes I developed designs and provided HTML and CSS for each page of the site. 
+Within a tight timeline, I reorganized the site's content into wireframes and reviewed those with the conference organizer. From those wireframes I developed designs and provided HTML and CSS for each page of the site. 
 
 
 <figure>
