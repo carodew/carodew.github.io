@@ -15,7 +15,7 @@ This nonprofit, professional association for educators had a membership renewal 
 
 ##What I Did##
 
-I worked with a cross-functional team of staff and an outside development team to streamline the renewals process from the user perspective. I helped to identify our various user types and created story maps for the online renewal process, considering the entire renewal context with multiple touchpoints. By progressing from low-fidelity sketches and moving up to fully coded HTML mock-ups, I was able facilitate discussions about the user experience throughout the project, and iterate on the design based on feedback and new information. 
+I worked with a cross-functional team and an outside development team to streamline the renewals process from the user perspective. I helped to identify our various user types and created story maps for the online renewal process, considering the entire renewal context with multiple touch points. By progressing from low-fidelity sketches and moving up to fully coded HTML mock-ups, I was able facilitate discussions about the user experience throughout the project, and iterate on the design based on feedback and new information. 
 
 I created visual design for the direct mail and email campaigns, working closely with the marketing and membership director to unify copy and design. I also provided the HTML and CSS mock-ups for the development team. I also set up analytics to track our success. 
 
@@ -64,5 +64,5 @@ I created visual design for the direct mail and email campaigns, working closely
 
 ##Results##
 
-Renewal rates right after implementation not only showed an increase in membership renewals, but that more members were renewing at earlier touchpoints during campaign. 
+Renewal rates right after implementation not only showed an increase in membership renewals, but that more members were renewing at earlier touch points during campaign. 
 
