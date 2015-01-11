@@ -2,6 +2,7 @@ _site/
 .sass-cache/
 index-LOCAL-ONLY.html
 _proprietary/
+-posts/_proprietary/
 _removed/
 _drafts/
 _config-local.yml
