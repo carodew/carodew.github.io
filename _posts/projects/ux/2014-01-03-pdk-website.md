@@ -19,7 +19,7 @@ We had existing internal research regarding our typical member profiles, mainly 
 
 As the lead in-house designer, I served as project lead and organized a cross-functional, internal team to work with an outside vendor that provided the visual design and development. I developed project strategies based on organizational goals and user research and led the entire development process.
 
-Early on in the process I led a full content audit on the existing site, evaluating each page for attributes such as clarity, accuracy, scannability, value to user, and value to the organization. We made recommendations for each page and assigned previously orphaned pages a content owner. During this process we were able to reduce the total number of pages by about 25&nbsp;percent.
+Early on in the process I led a full content audit on the existing site, evaluating each page for attributes such as clarity, accuracy, scan-ability, value to user, and value to the organization. We made recommendations for each page and assigned previously orphaned pages a content owner. During this process we were able to reduce the total number of pages by about 25&nbsp;percent.
 
 The content audit informed the overall site map. We organized content on the new site based on user tasks, grouped like pages together, and removed redundancies. We also streamlined user flows through the interactive elements of the site. 
 
