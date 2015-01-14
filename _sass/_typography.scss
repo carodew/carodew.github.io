@@ -11,7 +11,10 @@ hgroup,
 nav, 
 section { display: block; }
 
-html {
+html, 
+p, 
+ul, 
+ol {
 	font-family: $serifStack;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -58,7 +61,7 @@ ol ul { margin-bottom: 0; }
 
 li { line-height: 1.6em; }
 
-li + li { margin-top: 0.5em; }
+li + li { margin-top: 0.7em; }
 
 ul.unstyled, ol.unstyled {
 	margin-left: 0;
