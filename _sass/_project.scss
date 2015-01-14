@@ -6,44 +6,36 @@
 			width: 90%;
 			max-width: 40em;
 		}
-		&:hover {
-			color: #000000;
-		}
+		&:hover { color: #000000; }
 	}
-
 	.project-meta {
 		display: block;
 		margin-left: 0;
 		line-height: 1.8em;
-		ul li {
-			margin-bottom: 0.6em;
-		}
-		a {
-			//display: block;
-			padding-top: 1em;
-		}
+		ul li { margin-bottom: 0.6em; }
+		a { padding-top: 1em; }
 		.skill-pills {
-			@media screen and ( min-width: $breakpoint1 ) {
-				display: inline;
-			}
+			@media screen and ( min-width: $breakpoint1 ) { display: inline; }
 		}
 	}
-
-		p {
-			//margin-bottom: 2em;
-			line-height: 1.6em;
-			font-family: $serifStack;
-			strong {
-				font-family: $sansStack;
-				vertical-align: baseline;
-			}
-		}
-	}
-	.project-contributions	{
-			strong, ul, li {
+	p {
+		line-height: 1.6em;
+		font-family: $serifStack;
+		strong {
+			font-family: $sansStack;
 			vertical-align: baseline;
 		}
 	}
+}
+
+	.project-contributions {
+			strong, 
+			ul, 
+			li { vertical-align: baseline; }
+	}
 
 .proprietary .prev-next-nav { display: none; }
+
+
+
 /* ================== Project // EOF ================== */

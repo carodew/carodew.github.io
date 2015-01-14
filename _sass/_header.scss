@@ -31,8 +31,8 @@ header {
 
 .logotype {
 	display: inline-block;
-	-zoom: 1;
-	-display: inline;
+	*zoom: 1;
+	*display: inline;
 	width: ($leftColumn - 1em);
 	max-width: ($leftColumn - 1em);
 	margin: 0.6em 0;
@@ -41,20 +41,20 @@ header {
 .roles {
 	display: none;
 	@media screen and (min-width: (675em/16)) {
-	display:inline-block;
-	*display: inline;
-	*zoom:1;
-	margin: 2em 2em 1em;
-	list-style: none outside none;
-	font-family: $sansStack;
-	font-size: 0.8em;
-	li {
-		display: inline;
-		margin-right: 1em;
-		font-style:italic;
+		display:inline-block;
+		*display: inline;
+		*zoom:1;
+		margin: 2em 2em 1em;
+		list-style: none outside none;
+		font-family: $sansStack;
+		font-size: 0.8em;
+		li {
+			display: inline;
+			margin-right: 1em;
+			font-style:italic;
 		}
 	}
-} 
+}
 
 nav {
 		margin-left: -0.6em;
@@ -70,23 +70,21 @@ nav {
 			list-style: none;
 			li + li { margin-top: 0; }
 			> li {
-					float: left;
-					> a, a.contact {
-						display: block;
-						float: none;
-						padding: 0.3em 0.6em;
-						border-top:0;
-						margin-top:0;
-						color: $coral;
-						text-decoration: none;
-						text-shadow: none;
-						font-style:italic;
-						@include commonTransition (color, 0.3s); 
-						&:hover {
-							color:$cyan;
-						}
-				 }
-			} 
+				float: left;
+				> a, a.contact {
+					display: block;
+					float: none;
+					padding: 0.3em 0.6em;
+					border-top:0;
+					margin-top:0;
+					color: $coral;
+					text-decoration: none;
+					text-shadow: none;
+					font-style:italic;
+					@include commonTransition (color, 0.3s); 
+					&:hover { color:$cyan; }
+				}
+			}
 		}
 	}
 	

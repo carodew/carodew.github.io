@@ -8,7 +8,7 @@
 	background: $backgroundColor;
 	@include pinkGlow;
 	@include commonTransition(color, 0.3s);
-	color:	lighten($coral, 10%);
+	color: lighten($coral, 10%);
 	text-align: center;
 	i {
 		margin-top: .5em;
@@ -22,7 +22,6 @@
 
 .back {
 	margin: 1em 0.5em 1em $pageMargin;
-	//font-weight: bold;
 	padding-top: 0;
 }
 
@@ -72,9 +71,7 @@
 	//left: 20px;
 }
 
-.next {
-	float: right;
-}
+.next { float: right; }
 
 // Back to Top
 .back-up-static {
@@ -93,8 +90,6 @@
 	background:	url("../img/glyphicons-halflings.png") no-repeat -288px -144px ;
 	opacity: 0.25;
 	@include commonTransition (opacity, 0.3s);
-	&:hover {
-		 opacity: 0.5;
-	}
+	&:hover { opacity: 0.5; }
 }
 

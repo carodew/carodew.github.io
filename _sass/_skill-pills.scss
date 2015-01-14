@@ -1,25 +1,23 @@
-@media (min-width: $breakpoint1) { 
-	.skill-pills {
-		font-family: $sansStack;
-		list-style: none;
-		margin: 0 0.1em 2em;
-		cursor: default;
-		line-height: 1em;
-		vertical-align: baseline;
-		li {
-			position: relative;
-			display: inline-block;
-			-zoom: 1;
-			-display: inline;
-			z-index: 1000;
-			padding: 0.4em 0.5em 0.3em;
-			margin: 0.2em;
-			background: #efefef;
-			@include borderRadius(3px); 
-			@include commonTransition(background, 0.4s);
-			&:hover {
-				background-color: lighten($coral, 20%); 
-			}
+.skill-pills {
+	font-family: $sansStack;
+	list-style: none;
+	margin: 0 0.1em 2em;
+	cursor: default;
+	line-height: 1em;
+	vertical-align: baseline;
+	li {
+		position: relative;
+		display: inline-block;
+		-zoom: 1;
+		-display: inline;
+		z-index: 1000;
+		padding: 0.4em 0.5em 0.3em;
+		margin: 0.2em;
+		background: #efefef;
+		@include borderRadius(3px); 
+		@include commonTransition(background, 0.4s);
+		&:hover {
+			background-color: lighten($coral, 20%); 
 		}
 	}
 }

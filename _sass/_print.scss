@@ -1,10 +1,9 @@
 @media print {
-	.global-nav, .portfolio-nav, section.portfolio a.back-up, section.contact a.back-up {
-		display: none;
-	}
-	.visible-print {
-		display: inherit !important;
-	}
+	.global-nav, 
+	.portfolio-nav, 
+	section.portfolio a.back-up, 
+	section.contact a.back-up { display: none; }
+	.visible-print { display: inherit !important; }
 	.print-contact {
 		color: #000;
 		line-height: 1em;
