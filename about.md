@@ -37,6 +37,19 @@ img-path: "../img"
 </div>
 </div>
 </section>
+<section class="contact">
+<div class="section-label">
+	<h2>Involvement</h2>
+</div>
+<div class="section-content">
+<ul class="unstyled">
+	<li>Ladies that UX Atlanta</li>
+	<li>Atlanta Web Design Group (AWDG)</li>
+	<li>IxDA Atlanta</li>
+	<li>Young Nonprofit Professionals Association (YNPN)</li>
+</ul>
+</div>
+</section>
 <section class="skills">
 <div class="section-label">
 	<h2>Skills</h2>
@@ -55,7 +68,7 @@ img-path: "../img"
 <li>wireframing</li>
 <li>rapid prototyping</li>
 <li>information architecture</li>
-<li>respnsive design</li>
+<li>responsive design</li>
 <li>web analytics</li>
 <li>content strategy</li>
 <li>user stories</li>
