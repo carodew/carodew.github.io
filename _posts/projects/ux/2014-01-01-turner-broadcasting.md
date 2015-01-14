@@ -5,7 +5,7 @@ short-title:  "Turner Enterprise Software"
 long-title: "Turner Broadcasting, Inc. Enterprise Software"
 categories: ux
 thumbnail: "../img/turner-logo-thumb.gif" 
-mobile-image: " "
+mobile-image: "../img/turner-logo-thumb.gif"
 img-path: '../img/'
 ---
 
