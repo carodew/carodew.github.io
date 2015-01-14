@@ -6,50 +6,73 @@ permalink: /about/
 img-path: "../img"
 ---
 <section class="resume">
-<div class="section-label">
-	<h2>About</h2>
-</div>
-<div class="section-content">
-<p>I've been doing UX and UI design for the past three years, with six years work experience previously as a graphic designer. I focus on collaborative techniques and creating healthy team dynamics. I also have a strong background in the nonprofit sector.</p> 
-<p>I also do things in my spare time. Specifically, I practice and teach <a href="http://en.wikipedia.org/wiki/Salsa_dance_%28Cuban_style%29">Cuban salsa dancing</a>, previously in a leadership role with Ritmos Latinos in Bloomington, Indiana and now as a member of the SALSAtlanta performance team. I also spend a considerable amount of time playing with bits of string, some of which turns into knitted creations.</p>
-
-<div class="a-resume" >
-<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
+	<div class="section-label">
+		<h2>About</h2>
 	</div>
-</div>
+	<div class="section-content">
+		<p>I've been doing UX and UI design for the past three years, with six years work experience previously as a graphic designer. I focus on collaborative techniques and creating healthy team dynamics. I also have a strong background in the nonprofit sector.</p> 
+		<p>I also do things in my spare time. Specifically, I practice and teach <a href="http://en.wikipedia.org/wiki/Salsa_dance_%28Cuban_style%29">Cuban salsa dancing</a>, previously in a leadership role with Ritmos Latinos in Bloomington, Indiana and now as a member of the SALSAtlanta performance team. I also spend a considerable amount of time playing with bits of string, some of which turns into knitted creations.</p>
+	<div class="a-resume" >
+	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
+		</div>
+	</div>
 </section>
 <section class="contact">
-<div class="section-label">
-	<h2>Connect</h2>
-</div>
-<div class="section-content">
-	<p>
-		Carolyn Dew
-		<br>
-		Atlanta, Ga.
-		<br>
-		<a href="mailto:carolyndew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyndew@gmail.com</a>
-	</p>
-<div class="social">
-<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
-<a class="tw" id="twitter" href="https://twitter.com/carodew" title="Design-related tweets mixed with me trying to be funny." onclick="_gaq.push(['_trackEvent', 'Social','Click', 'Twitter']);">Twitter</a>
-<a class="pin" id="pinterest" href="http://pinterest.com/caslondew/" title="See what inspires and entertains me." onclick="_gaq.push(['_trackEvent', 'Social','Click','Pinterest']);">Pinterest</a>
-</div>
-</div>
+	<div class="section-label">
+		<h2>Connect</h2>
+	</div>
+	<div class="section-content">
+		<p>
+			Carolyn Dew
+			<br>
+			Atlanta, Ga.
+			<br>
+			<a href="mailto:carolyndew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyndew@gmail.com</a>
+		</p>
+	<div class="social">
+	<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
+	<a class="tw" id="twitter" href="https://twitter.com/carodew" title="Design-related tweets mixed with me trying to be funny." onclick="_gaq.push(['_trackEvent', 'Social','Click', 'Twitter']);">Twitter</a>
+	<a class="pin" id="pinterest" href="http://pinterest.com/caslondew/" title="See what inspires and entertains me." onclick="_gaq.push(['_trackEvent', 'Social','Click','Pinterest']);">Pinterest</a>
+	</div>
+	</div>
 </section>
-<section class="contact">
-<div class="section-label">
-	<h2>Involvement</h2>
-</div>
-<div class="section-content">
-<ul class="unstyled">
-	<li>Ladies that UX Atlanta</li>
-	<li>Atlanta Web Design Group (AWDG)</li>
-	<li>IxDA Atlanta</li>
-	<li>Young Nonprofit Professionals Association (YNPN)</li>
-</ul>
-</div>
+
+<section class="resume">
+	<div class="section-label">
+		<h2>Involvement</h2>
+	</div>
+	<div class="section-content">
+	<ul class="unstyled">
+		<li>Ladies that UX Atlanta</li>
+		<li>Atlanta Web Design Group (AWDG)</li>
+		<li>IxDA Atlanta</li>
+		<li>Young Nonprofit Professionals Association (YNPN)</li>
+	</ul>
+	</div>
 </section>
+<section class="resume">
+	<div class="section-label">
+		<h2>Worked with</h2>
+	</div>
+	<div class="section-content">
+	<ul class="unstyled">
+		<li>University of Cincinnati</li>
+		<li>Ohio University</li>
+		<li>Indiana University</li>
+		<li>PDK International</li>
+		<li>Future Educators Association</li>
+		<li>Terra Foods Co-operative Market</li>
+		<li>Bloomingfoods Co-operative Market</li>
+		<li>Columbus Food Co-op</li><!-- that's Columbus, Indiana, in case you were wondering -->
+		<li>WFHB &ndash; Firehouse Broadcasting Community Radio</li>
+		<li>Happen, Inc. (arts education nonprofit in Cincinnati, Ohio)</li>
+		<li>SALSAtlanta</li>
+		<li>APE Games</li>
+		<li>Independent artists and crafters</li>
+	</ul>
+	</div>
+</section>
+
 <section class="skills">
 <div class="section-label">
 	<h2>Skills</h2>
