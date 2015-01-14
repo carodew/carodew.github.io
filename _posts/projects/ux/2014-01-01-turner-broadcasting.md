@@ -23,7 +23,7 @@ Turner Broadcasting, Inc. uses custom software to predict how well future televi
 * Advocated for user needs
 * Facilitated collaborative design sessions
 * Communicated design decisions with developers using a variety of rendering techniques&mdash;including wireframes, sketches, and interactive prototypes
-* Developed a front-end pattern library (based on [the Atomic Design framework](http://patternlab.io/) by Brad&nbsp;Frost and Dave&nbsp;Olsen) to ensure consistent and clean styling and structure
+* Developed a front-end pattern library (based on [the Atomic Design framework](http://patternlab.io/) by Brad&nbsp;Frost and Dave&nbsp;Olsen) to ensure consistent and clean styling
 * During transitions, filled in for business analyst roles such as sprint planning, backlog management, and collaborative story writing
 * Contributed to MVP planning and identifying project milestones
 
