@@ -17,15 +17,14 @@ We had existing internal research regarding our typical member profiles, mainly 
 
 ##What I Did##
 
-As the lead in-house designer, I served as project lead and organized a cross-functional, internal team to work with an outside vendor that provided the visual design and development. I developed project strategies based on organizational goals and user research and led the entire development process.
-
-Early on in the process I led a full content audit on the existing site, evaluating each page for attributes such as clarity, accuracy, scan-ability, value to user, and value to the organization. We made recommendations for each page and assigned previously orphaned pages a content owner. During this process we were able to reduce the total number of pages by about 25&nbsp;percent.
-
-The content audit informed the overall site map. We organized content on the new site based on user tasks, grouped like pages together, and removed redundancies. We also streamlined user flows through the interactive elements of the site. 
-
-We also completely re-imagined the PDK blog, shifted content from organizational information to current news and trends within the field of education.
-
-As part of this process, I led the team in creating guidelines for writing good web content, and coordinated the transfer of content to the new site amidst time-sensitive public campaigns. I also conducted training for support staff on the new website and changes it created for users. 
+* Served as project lead and organized a cross-functional, internal team
+* Determined project strategies based on organizational goals and user research
+* Created project milestones
+* Led a full content audit on the existing site, evaluating each page for clarity, accuracy, &lsquo;scan-ability,&rsquo; value to user, and value to the organization
+* Organized content on the new site based on user tasks and removed redundancies
+* Re-imagined the PDK blog, shifting content from organizational information to current news and trends within education
+* Led the team in creating guidelines for writing good web content, and coordinated the transfer of content to the new site amidst time-sensitive public campaigns
+* Conducted training for support staff on the new website and changes it created for&nbsp;users
 
 <figure>
 	<img src="{{ page.img-path }}content-audit-portfolio.gif" alt="PDK website content audit" />
@@ -62,6 +61,6 @@ As part of this process, I led the team in creating guidelines for writing good 
 
 ##Results##
 
-Analytics showed increased traffic to key areas of the website and we were able to implement analytics more effectively through the site.
+Analytics showed increased traffic to key areas of the website and we were able to implement analytics more effectively through the site. Through the content audit we were able to cut about 25&nbsp;percent of the site content. 
 
-"[Carolyn's] ability to facilitate discussions about design, her knack at breaking down and simplifying complex processes, and her give and take of feedback has enabled her to create websites that are user-centered, streamlined, and effective." &mdash; Jeanne Storm, Associate Executive Director, PDK International (1999&ndash;2013)
+"[Carolyn's] ability to facilitate discussions about design, her knack at breaking down and simplifying complex processes, and her give and take of feedback has enabled her to create websites that are user-centered, streamlined, and effective." &mdash; [Jeanne Storm](https://www.linkedin.com/profile/view?id=49770690), Associate Executive Director 1999&ndash;2013, PDK International 
