@@ -40,19 +40,13 @@ header {
 
 .roles {
 	display: none;
-	@media screen and (min-width: (675em/16)) {
+	@media screen and (min-width: 53.75em) { //  860em/16
 		display:inline-block;
 		*display: inline;
 		*zoom:1;
-		margin: 2em 2em 1em;
-		list-style: none outside none;
+		margin: 1.8em 2em 1em;
 		font-family: $sansStack;
 		font-size: 0.8em;
-		li {
-			display: inline;
-			margin-right: 1em;
-			font-style:italic;
-		}
 	}
 }
 

@@ -1,5 +1,5 @@
 
-/* ====== Visible/hidden classes: phone ====== */
+/* ====== Phones and small screens ====== */
 
 .hidden {
 	display: none;
@@ -18,7 +18,7 @@
 .visible-desktop { display: none !important; }
 .visible-print   { display: none; }
 
-/* ====================== portrait tablets only ====================== */
+/* ====================== Tablet sizes, roughly ====================== */
 
 @media screen and (min-width: $breakpoint1) and (max-width: $breakpoint2) { 
 	.hidden-tablet   { display: none !important; }
@@ -28,62 +28,12 @@
 	.visible-phone   { display: none !important; }
 }
 
-@media screen and (min-width: $breakpoint1) { /*Breakpoint 1 - break from single column to thumbnails*/
-	.portfolio, 
-	.contact, 
-	.resume, 
-	.project-detail, 
-	.skills { border-top: 1px solid #000000; }
-	.ux-project {
-		display: inline-block;
-		*display: inline;
-		*zoom:1;
-		width: 30%; //31.7333333333333%;//19.2708333333333em;	//308.33px
-		margin-right: 2.4%;// 1.5em; // (1.5*16) / 973
-		// to determine thumbnail width: container-width - (margin width * (# of projects	- 1)) / # of projects in row
-		// (100% - (2.4 *2)) / 3
-		// (100% - 4.8) / 3 = 31.7333333333333
-	}
+/* ====================== Laptops and desktops ====================== */
 
-	.project-title {
-		position: absolute;
-		top: 5px;
-		right: 5px;
-		bottom: 5px;
-		left: 5px;
-		font-family: $serifStack;
-		color: #ffffff;
-		margin-bottom: 0;
-		font-size: 0.9em;
-		font-weight: normal;
-		opacity: 0;
-		background: $coral;
-		background: rgba($coral,0.93);
-		@include commonTransition(opacity, 0.3s); 
-		p {
-			margin: 0.3em;
-			margin-left: 1.3em;
-			position: absolute; 
-			text-align: right;
-			bottom: 0;
-			right:0;
-		}
-		&:hover {
-			opacity:1;
-			color: #ffffff;
-		}
-	}
-	.back-up {
-		position: static;
-		margin-top: 1.6em;
-	} 
-
-}/* break to thumbnails // EOF */
-
-@media screen and (min-width: 980px) { 
-	.hidden-phone    { display:inherit !important; }
+@media screen and (min-width: $breakpoint2) { 
+	.hidden-phone    { display: inherit !important; }
 	.hidden-desktop  { display: none !important; }
-	.hidden-tablet   { display:inherit !important; }
+	.hidden-tablet   { display: inherit !important; }
 	.visible-desktop { display: inherit !important; }
 	.visible-phone   { display: none !important; }
 	.visible-tablet  { display: none !important; }

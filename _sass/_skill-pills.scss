@@ -8,16 +8,19 @@
 	li {
 		position: relative;
 		display: inline-block;
-		-zoom: 1;
-		-display: inline;
+		*zoom: 1;
+		*display: inline;
 		z-index: 1000;
-		padding: 0.4em 0.5em 0.3em;
+		padding: 0.1em 0.5em 0.2em;
 		margin: 0.2em;
 		background: #efefef;
 		@include borderRadius(3px); 
 		@include commonTransition(background, 0.4s);
 		&:hover {
 			background-color: lighten($coral, 20%); 
+		}
+		@media screen and (min-width: $breakpoint1) {
+			padding: 0.4em 0.5em 0.3em;
 		}
 	}
 }

@@ -1,3 +1,6 @@
+/* ================== Colors ================== */
+
+
 $coral: #FF7466;
 $darkCoral: #a3281b;
 $lightCoral: lighten($coral, 25%);
@@ -7,14 +10,21 @@ $backgroundColor: #fdfdfd;
 $lightGray: #C5BDC1;
 $darkGray: #777777;
 
+/* ================== Layout/Breakpoints ================== */
+
 $pageMargin: (24em/16); // 1.5em - side borders on page content
+$leftColumn: (170em/16);
+
 $breakpoint1: (550em/16); // 34.375em breaks from single column to thumbnails
 $breakpoint2: (979em/16); // 61.1875em caption information on project pages snaps to the left column
 
-$leftColumn: (170em/16);
+
+/* ================== Fonts ================== */
 
 $sansStack: "ff-tisa-sans-web-pro","Trebuchet MS" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
 $serifStack: "ff-tisa-web-pro", 'Georgia', 'Times', serif; 
+
+/* ================== Mixins ================== */
 
 @mixin commonTransition ($property: all, $duration: 0.3s) {
 		-webkit-transition: $property $duration;
@@ -29,6 +39,11 @@ $serifStack: "ff-tisa-web-pro", 'Georgia', 'Times', serif;
 						box-shadow:	1px 1px 2em 0 rgba(rgba($coral,1), 0.2);
 }
 
+@mixin boxShadow( $shadow: 0 1px 3px rgba(0, 0, 0, 0.1) ) { 
+		-webkit-box-shadow:	$shadow;
+			 -moz-box-shadow:	$shadow;
+						box-shadow:	$shadow; }
+
 @mixin pinkInset {
 		background: lighten($coral, 10%);
 		background: rgba($coral, 0.5) ;
@@ -42,3 +57,5 @@ $serifStack: "ff-tisa-web-pro", 'Georgia', 'Times', serif;
 			 -moz-border-radius: $radius;
 						border-radius: $radius;
 }
+
+
