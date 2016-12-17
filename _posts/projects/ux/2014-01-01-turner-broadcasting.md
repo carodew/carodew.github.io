@@ -11,11 +11,11 @@ img-path: '../img/'
 
 <p class="proprietary-statement">Proprietary work! I can't show pictures, but here's my process. Please <a href="{{site.url}}/about/index.html#contact">contact me</a> to learn more about this project.</p>
 
-##Brief##
+## Brief ##
 
 Turner Broadcasting, Inc. uses custom software to predict how well future television shows would fare on its networks, including CNN, TBS, TNT, Cartoon&nbsp;Network, and Turner&nbsp;Sports. Estimates created in this system are the foundation for $4&nbsp;billion in advertising revenue per year. I worked on a team tasked with updating this software to better accommodate technological and industry-specific changes. 
 
-##What I Did##
+## What I Did ##
 
 * Reviewed initial user interviews and analysis to get up to speed quickly working on a cross-functional, Agile (Scrum) team 
 * Identified key UX objectives based on user feedback and team input
@@ -27,7 +27,7 @@ Turner Broadcasting, Inc. uses custom software to predict how well future televi
 * During transitions, filled in for business analyst roles such as sprint planning, backlog management, and collaborative story writing
 * Contributed to MVP planning and identifying project milestones
 
-##Key Tools and Deliverables##
+## Key Tools and Deliverables ##
 <ul class="skill-pills">
 	<li>problem analysis</li>
 	<li>facilitating discussions</li>
@@ -43,6 +43,6 @@ Turner Broadcasting, Inc. uses custom software to predict how well future televi
 	<li>MVP planning</li>
 </ul>
 
-##Results##
+## Results ##
 
 This project is ongoing, but early user feedback has been positive. Users have said that the data are easier to read; the layout is more intuitive; and that the new version will not only be easier to use, but will help prevent costly mistakes. We are also implementing analytics to track progress along key metrics. 
