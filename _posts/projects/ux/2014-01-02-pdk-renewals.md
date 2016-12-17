@@ -8,12 +8,12 @@ thumbnail: "renewal-thumb.gif"
 mobile-image: "renewals-port-1.gif"
 img-path: '../img/'
 ---
-##Brief##
+## Brief ##
 
 This nonprofit, professional association for educators had a membership renewal process that had evolved unchecked over many years. Due to staff turnover, no one person in the organization had a full understanding of the renewals process in place. With many membership types and renewal processes, we needed to fully analyze the membership types, statuses (e.g. current, expired, etc.) and renewal functions to get a complete&nbsp;picture.
 
 
-##What I Did##
+## What I Did ##
 
 * Worked with a cross-functional team of staff and an outside development team to streamline the renewals process from the user perspective. 
 * Identified user types and created story maps for the online renewal process for each
@@ -54,7 +54,7 @@ This nonprofit, professional association for educators had a membership renewal 
 	</figcaption>
 </figure>
 
-##Key Tools and Deliverables##
+## Key Tools and Deliverables ##
 <ul class="skill-pills">
 	<li>problem analysis</li>
 	<li>visual design</li>
@@ -65,7 +65,7 @@ This nonprofit, professional association for educators had a membership renewal 
 	<li>front-end development (HTML/CSS)</li>
 </ul>
 
-##Results##
+## Results ##
 
 Renewal rates right after implementation not only showed an increase in membership renewals, but that members were renewing at earlier touch-points during campaign. 
 
