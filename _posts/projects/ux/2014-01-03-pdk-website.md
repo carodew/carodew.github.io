@@ -9,13 +9,13 @@ mobile-image: "mobile-wireframes-homepage.gif"
 img-path: '../img/'
 
 ---
-##Brief##
+## Brief ##
 
 PDK, a nonprofit professional association for educators, was using a website built on legacy code, and needed a future-friendly solution with a content management system and responsive design. 
 
 We had existing internal research regarding our typical member profiles, mainly career educators working at the administrative or policy level. We also used web analytics to identify the most popular content.
 
-##What I Did##
+## What I Did ##
 
 * Served as project lead and organized a cross-functional, internal team
 * Determined project strategies based on organizational goals and user research
@@ -47,7 +47,7 @@ We had existing internal research regarding our typical member profiles, mainly 
 	</figcaption>
 </figure>
 
-##Key Tools and Deliverables##
+## Key Tools and Deliverables ##
 
 <ul class="skill-pills">
 	<li>product ownership</li>
@@ -59,7 +59,7 @@ We had existing internal research regarding our typical member profiles, mainly 
 	<li>staff training</li>
 </ul>
 
-##Results##
+## Results ##
 
 Analytics showed increased traffic to key areas of the website and we were able to implement analytics more effectively through the site. Through the content audit we were able to cut about 25&nbsp;percent of the site content. 
 
