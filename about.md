@@ -10,11 +10,10 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I've been doing UX and UI design for the past three years, with six years work experience previously as a graphic designer. I focus on collaborative techniques and creating healthy team dynamics. I also have a strong background in the nonprofit sector.</p> 
-		<p>I also do things in my spare time. Specifically, I practice and teach <a href="http://en.wikipedia.org/wiki/Salsa_dance_%28Cuban_style%29">Cuban salsa dancing</a>, previously in a leadership role with Ritmos Latinos in Bloomington, Indiana and now as a member of the SALSAtlanta performance team. I also spend a considerable amount of time playing with bits of string, some of which turns into knitted creations.</p>
-	<div class="a-resume" >
+		<p>I'm a user experience lead at 18F, previously at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master's degree in nonprofit management. Previous iterations of my career included visual design and some front end development (mostly HTML and CSS). I think a lot about inclusive design, behavioral economics, and the role of civil society. I work remotely with my two cats, although they don't really contribute a whole lot.</p>
+	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
-		</div>
+		</div>-->
 	</div>
 </section>
 <section class="contact">
@@ -27,7 +26,7 @@ img-path: "../img"
 			<br>
 			Atlanta, Ga.
 			<br>
-			<a href="mailto:carolyndew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyndew@gmail.com</a>
+			<a href="mailto:carolynsdew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolynsdew@gmail.com</a>
 		</p>
 	<div class="social">
 	<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
