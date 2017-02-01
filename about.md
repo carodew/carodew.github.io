@@ -10,7 +10,7 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I'm a user experience researcher and designer at 18F, previously at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master's degree in nonprofit management. I think a lot about inclusive design, behavioral economics, and the role of civil society. I work remotely with my two cats, although they don't really contribute a whole lot.</p>
+		<p>I'm a user experience lead at 18F, previously at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master's degree in nonprofit management. I think a lot about inclusive design, behavioral economics, and the role of civil society. I work remotely with my two cats, although they don't really contribute a whole lot.</p>
 	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>-->
