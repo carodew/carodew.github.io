@@ -4,7 +4,7 @@ header {
 	background-color: transparent;
 	position: relative;
 	margin: 0 1.5em;
-	color: $darkGray;
+	color: $color-light-text;
 	font-family: $sansStack;
 	h1 {
 		margin: 0;
@@ -19,7 +19,7 @@ header {
 		*zoom: 1;
 		font-family: $sansStack;
 		&:after {
-			border: 5px solid #000000;
+			border: 5px solid $color-base-text;
 			content: "";
 			height: 2.5rem;
 			left: $leftColumn;
@@ -71,12 +71,12 @@ nav {
 					padding: 0.3em 0.6em;
 					border-top:0;
 					margin-top:0;
-					color: $coral;
+					color: $color-default-link;
 					text-decoration: none;
 					text-shadow: none;
 					font-style:italic;
 					@include commonTransition (color, 0.3s); 
-					&:hover { color:$cyan; }
+					&:hover { color:$color-default-hover; }
 				}
 			}
 		}
@@ -99,7 +99,7 @@ nav {
 
 .p-design .li-design > a, 
 .p-about .li-about	> a,
-.p-contact .li-contact > a { color: $cyan; }
+.p-contact .li-contact > a { color: $color-default-hover; }
 
 .p-about .portfolio-nav, 
 .p-contact .portfolio-nav, 
@@ -110,7 +110,7 @@ nav {
 	padding: 1rem;
 	margin: 1rem 0;
 	max-width: 50em;
-	background-color: $lightCoral;
-	border: 1px dashed $coral;
+	background-color: $color-primary-light;
+	border: 1px dashed $color-primary;
 	@include borderRadius(1rem);
 }

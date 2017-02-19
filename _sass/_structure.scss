@@ -6,7 +6,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.2em;
-	background-color: $backgroundColor;
+	background-color: $color-background;
 	color: #333333;
 }
 
@@ -27,11 +27,11 @@ header nav {
 	.contact, 
 	.resume, 
 	.project-detail, 
-	.skills { border-top: 1px solid #000000; }
+	.skills { border-top: 1px solid $color-base-text; }
 }
 
 .section-label {
-	border-top: 10px solid #000000;
+	border-top: 10px solid $color-base-text;
 	min-width: 70px;
 	width: 100%;
 	min-height: 30px;	 

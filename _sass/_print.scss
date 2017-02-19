@@ -5,7 +5,7 @@
 	section.contact a.back-up { display: none; }
 	.visible-print { display: inherit !important; }
 	.print-contact {
-		color: #000;
+		color: $darkGray;
 		line-height: 1em;
 		margin-top: 0;
 		margin-bottom: 0;

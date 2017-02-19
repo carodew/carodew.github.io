@@ -25,14 +25,14 @@
 		@include borderRadius;
 		@include commonTransition(background, 0.3s);
 		margin-right: 1em;
-		background: lighten($coral, 15%);
-		background: rgba($coral, 0.5);
-		 -webkit-box-shadow: inset 3px 3px 24px 0 rgba(rgba($coral,1), 0.5);
-				-moz-box-shadow: inset 3px 3px 24px 0 rgba(rgba($coral,1), 0.5);
-						 box-shadow: inset 0 0 32px 0 rgba(rgba($coral,1), 0.5);
+		background: lighten($color-primary, 15%);
+		background: rgba($color-primary, 0.5);
+		 -webkit-box-shadow: inset 3px 3px 24px 0 rgba(rgba($color-primary,1), 0.5);
+				-moz-box-shadow: inset 3px 3px 24px 0 rgba(rgba($color-primary,1), 0.5);
+						 box-shadow: inset 0 0 32px 0 rgba(rgba($color-primary,1), 0.5);
 		&:hover {
-			background: lighten($coral, 10%);
-			background: rgba($coral, 0.8); 
+			background: lighten($color-primary, 10%);
+			background: rgba($color-primary, 0.8); 
 			color: #fff;
 		}
 	}
