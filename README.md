@@ -8,7 +8,7 @@ To run locally: `jekyll serve` or `jekyll serve --drafts`
 
 Toggle the baseurl in `_config.yml` as needed. 
 
-Git is set to ignore all this so I don't share proprietary work in the remote site: 
+Git is set to ignore all this so I don't accidentally share proprietary work:
 
 - `index-LOCAL-ONLY.html` 
 - `_proprietary/`
