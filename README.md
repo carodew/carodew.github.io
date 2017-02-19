@@ -10,11 +10,11 @@ Toggle the baseurl in `_config.yml` as needed.
 
 Git is set to ignore all this so I don't share proprietary work in the remote site: 
 
-- index-LOCAL-ONLY.html 
-- _proprietary/
-- img/proprietary/
-- _posts/_proprietary/
+- `index-LOCAL-ONLY.html` 
+- `_proprietary/`
+- `img/proprietary/`
+- `_posts/_proprietary/`
 
-Git will also ignore the old stuff I don't want anymore: 
+Git will also ignore the old stuff that I once thought was cool but is not embarassing: 
 
-- _removed
+- `_removed`
