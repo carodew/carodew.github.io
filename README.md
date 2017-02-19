@@ -1,14 +1,20 @@
 carodew.github.io
 =================
-Portfolio site, created in Jekyll. 
+Portfolio site, created in [Jekyll](http://jekyllrb.com). 
 
-That may have been a bit disappointing for you. Here's a poem (public domain) to lighten the blow. 
+##Notes to self: 
 
-=================
+To run locally: `jekyll serve` or `jekyll serve --drafts`
 
-Innate Spirit
-by Dogen Zenji (1200-1253)
+Toggle the baseurl in _config.yml as needed. 
 
-In the spring, cherry blossoms, in the summer the cuckoo.
-In autumn the moon, and in the winter the snow, clear, cold. 
+Git is set to ignore all this so I don't share proprietary work in the remote site: 
 
+*index-LOCAL-ONLY.html 
+*_proprietary/
+*img/proprietary/
+*_posts/_proprietary/
+
+Git will also ignore the old stuff I don't want anymore: 
+
+*_removed
