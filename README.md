@@ -15,6 +15,6 @@ Git is set to ignore all this so I don't accidentally share proprietary work:
 - `img/proprietary/`
 - `_posts/_proprietary/`
 
-Git will also ignore the old stuff that I once thought was cool but is not embarassing: 
+Git will also ignore the old stuff that I once thought was cool but is now embarassing: 
 
 - `_removed`
