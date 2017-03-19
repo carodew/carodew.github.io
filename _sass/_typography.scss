@@ -71,13 +71,13 @@ ul.unstyled, ol.unstyled {
 // links
 
 a {
-	color: $coral;
+	color: $color-default-link;
 	text-decoration: none;
 	@include commonTransition(color, 0.3s); 
 	//@include commonTransition (background-color, 0.3s);
 	&:hover, &:active {
-		color: $cyan;
-		text-decoration: none;
+		color: $color-default-hover;
+		text-decoration: underline;
 		outline:0;
 	}
 	&:focus {

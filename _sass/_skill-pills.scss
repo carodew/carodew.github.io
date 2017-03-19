@@ -13,11 +13,11 @@
 		z-index: 1000;
 		padding: 0.1em 0.5em 0.2em;
 		margin: 0.2em;
-		background: #efefef;
+		background: $color-secondary-background;
 		@include borderRadius(3px); 
 		@include commonTransition(background, 0.4s);
 		&:hover {
-			background-color: lighten($coral, 20%); 
+			background-color: lighten($color-primary, 20%); 
 		}
 		@media screen and (min-width: $breakpoint1) {
 			padding: 0.4em 0.5em 0.3em;

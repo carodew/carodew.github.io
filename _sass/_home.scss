@@ -1,6 +1,6 @@
 /* ================== Portfolio ================== */
 
-.portfolio { border-top: 1px solid #000000; }
+.portfolio { border-top: 1px solid $color-base-text; }
 .project-thumbnail {
 	display: block;
 	max-width: (742em/16); // 46.375em
@@ -9,7 +9,7 @@
 	line-height: 20px;
 	background-color: #fff;
 	padding: 5px;
-	border: 1px solid #ccc;
+	border: 1px solid $medGray;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	@include boxShadow();
 	img { max-width: 100%; }
@@ -19,7 +19,7 @@
 		*display: inline;
 		width: (167em/16); // img width plus padding plus border / font-size, 157 + 5 + 5 / 16
 		margin-right: 1.5em;
-		border: 1px solid #ccc;
+		border: 1px solid $medGray;
 		img { width: 100%; }
 		.thumbnail { display: block !important; }
 		@include commonTransition (color, 0.6s); 
@@ -42,8 +42,8 @@
 		font-size: 0.9em;
 		font-weight: normal;
 		opacity: 0;
-		background: $coral;
-		background: rgba($coral,0.93);
+		background: $color-primary;
+		background: rgba($color-primary,0.93);
 		@include commonTransition(opacity, 0.3s); 
 		p {
 			margin: 0.3em;

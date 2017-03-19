@@ -3,9 +3,9 @@
 footer {
 	margin-top: 3em;
 	padding: 1em 1.5em;
-	color: #888888;
-	@include pinkGlow;
-	border-top: 1px solid lighten($coral, 5%);
+	color: $color-light-text;
+	@include glow;
+	border-top: 1px solid lighten($color-primary, 5%);
 	font-family: $sansStack;
 }
 

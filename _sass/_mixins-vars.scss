@@ -1,14 +1,34 @@
 /* ================== Colors ================== */
 
+// old
+// $coral: #FF7466;
+// $darkCoral: #a3281b;
+// $lightCoral: lighten($coral, 25%);
+// $cyan: #1FE2FF; 
 
-$coral: #FF7466;
-$darkCoral: #a3281b;
-$lightCoral: lighten($coral, 25%);
-$cyan: #1FE2FF; 
-$backgroundColor: #fdfdfd; 
+$offwhite: #fdfdfd;
+$red: #c02710; // #DF2F12 contrast ratio 4.53:1 on $offwhite 
 
-$lightGray: #C5BDC1;
-$darkGray: #777777;
+$verylightgray: #EAE8E8; // secondary background
+$lightGray: #C5BDC1; // not sufficient contrast for text
+$medGray: #656363; // contrast ratio 9.54:1 on $offwhite
+$darkGray: #262525; // contrast ratio 15.03:1 on $offwhite
+
+
+// Color Assignments 
+
+$color-background: $offwhite; 
+$color-secondary-background: $verylightgray;
+
+$color-base-text: $darkGray; 
+$color-light-text: $medGray;
+
+$color-primary: $red;
+$color-primary-light: lighten($color-primary, 15%);
+$color-primary-very-light: lighten($color-primary, 50%);
+
+$color-default-link: $color-primary;
+$color-default-hover: lighten($color-default-link, 15%);
 
 /* ================== Layout/Breakpoints ================== */
 
@@ -32,11 +52,11 @@ $serifStack: "ff-tisa-web-pro", 'Georgia', 'Times', serif;
 				 -o-transition: $property $duration; 
 						transition: $property $duration;
 }
-@mixin pinkGlow {
-		// border: 1px solid rgba($coral, 0.2);
-		-webkit-box-shadow:	1px 1px 2em 0 rgba(rgba($coral,1), 0.2);
-			 -moz-box-shadow:	1px 1px 2em 0 rgba(rgba($coral,1), 0.2);
-						box-shadow:	1px 1px 2em 0 rgba(rgba($coral,1), 0.2);
+@mixin glow {
+		// border: 1px solid rgba($primary, 0.2);
+		-webkit-box-shadow:	1px 1px 2em 0 rgba(rgba($color-primary,1), 0.2);
+			 -moz-box-shadow:	1px 1px 2em 0 rgba(rgba($color-primary,1), 0.2);
+						box-shadow:	1px 1px 2em 0 rgba(rgba($color-primary,1), 0.2);
 }
 
 @mixin boxShadow( $shadow: 0 1px 3px rgba(0, 0, 0, 0.1) ) { 
@@ -44,12 +64,12 @@ $serifStack: "ff-tisa-web-pro", 'Georgia', 'Times', serif;
 			 -moz-box-shadow:	$shadow;
 						box-shadow:	$shadow; }
 
-@mixin pinkInset {
-		background: lighten($coral, 10%);
-		background: rgba($coral, 0.5) ;
-		-webkit-box-shadow: inset 3px 3px 24px 0 rgba(rgba($coral,1), 0.5);
-			 -moz-box-shadow: inset 3px 3px 24px 0 rgba(rgba($coral,1), 0.5);
-						box-shadow: inset 0 0 32px 0 rgba(rgba($coral,1), 0.5);
+@mixin inset {
+		background: lighten($color-primary, 10%);
+		background: rgba($color-primary, 0.5) ;
+		-webkit-box-shadow: inset 3px 3px 24px 0 rgba(rgba($color-primary,1), 0.5);
+			 -moz-box-shadow: inset 3px 3px 24px 0 rgba(rgba($color-primary,1), 0.5);
+						box-shadow: inset 0 0 32px 0 rgba(rgba($color-primary,1), 0.5);
 }
 
 @mixin borderRadius ($radius: 3px){
