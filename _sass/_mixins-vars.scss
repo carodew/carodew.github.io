@@ -7,7 +7,7 @@
 // $cyan: #1FE2FF; 
 
 $offwhite: #fdfdfd;
-$red: #DF2F12; // contrast ratio 4.53:1 on $offwhite
+$red: #c02710; // #DF2F12 contrast ratio 4.53:1 on $offwhite 
 
 $verylightgray: #EAE8E8; // secondary background
 $lightGray: #C5BDC1; // not sufficient contrast for text
@@ -24,7 +24,8 @@ $color-base-text: $darkGray;
 $color-light-text: $medGray;
 
 $color-primary: $red;
-$color-primary-light: lighten($red, 15%);
+$color-primary-light: lighten($color-primary, 15%);
+$color-primary-very-light: lighten($color-primary, 50%);
 
 $color-default-link: $color-primary;
 $color-default-hover: lighten($color-default-link, 15%);
