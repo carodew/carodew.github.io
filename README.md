@@ -4,7 +4,7 @@ Portfolio site, created in [Jekyll](http://jekyllrb.com).
 
 ##Notes to self: 
 
-To run locally: `jekyll serve` or `jekyll serve --drafts`
+To run locally: `jekyll serve --config _config.yml or `jekyll serve  --config _config-local.yml --drafts` 
 
 Toggle the baseurl in `_config.yml` as needed. 
 
