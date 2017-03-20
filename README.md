@@ -21,7 +21,7 @@ Git will also ignore the old stuff that I once thought was cool but is now embar
 
 ### Images
 
-New projects need images. Specifically: 
+When I add a new project I need to add images. Specifically: 
 
 - Thumbnail – represents the project on the homepage. 157 × 102
 - Don't forget about the mobile view. That would be no bueno. 
