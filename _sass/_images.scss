@@ -24,12 +24,12 @@ figcaption {
 .logotype img { background-color: transparent; }
 
 .project {
-	figure {
+	 figure {
 		margin-bottom: 3rem;
 		margin-right: 0;
 		margin-left: 0;
 		@media screen and (min-width: $breakpoint1) { position: relative; }
-		> img, a {
+		> img {
 			display: inline-block;
 			width: 96%;
 			margin-bottom: 1rem;
@@ -41,7 +41,8 @@ figcaption {
 							box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 		}
 		> a {
-				&:hover, &:focus { @include glow; }
+			display: inline; 
+				//&:hover, &:focus { @include glow; }
 				> img { width: 100%; }
 			}
 		}
