@@ -2,7 +2,7 @@
 title: Carolyn Dew | UX Design and Research
 email: carolynsdew@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I&rsquo;m a UX/graphic designer with experience in web and print design, with particular experience serving nonprofit and socially responsible businesses.
+  Portfolio site for Carolyn Dew, a user experience researcher and designer working in the civic space. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 #Toggle commenting on the following lines for local vs remote. 
 # Or pass in --url 'http://127.0.0.1:4000' in command line with jekyll serve
