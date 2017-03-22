@@ -11,7 +11,7 @@ img-path: "../img"
 	</div>
 	<div class="section-content">
 		<p>I'm a user experience lead at 18F, and I think a lot about inclusive design, behavioral economics, and the role of civil society. In addition to UX design and research, I can pinch hit as a visual designer, content strategist, or overall product strategist. </p>
-		<p>I previously worked at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master's degree in nonprofit management. Previous iterations of my career included visual design and some front end development (mostly HTML and CSS). I work remotely with my two cats, although they don't really contribute a whole lot.</p>
+		<p>I previously worked at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master&apos;s degree in nonprofit management. Previous iterations of my career included visual design and some front end development (mostly HTML and CSS). I work remotely with my two cats, although they don&apos;t really contribute a whole lot.</p>
 	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>-->
