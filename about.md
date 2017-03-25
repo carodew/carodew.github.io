@@ -103,9 +103,12 @@ img-path: "../img"
 <li>HTML5</li>
 <li>CSS3</li>
 <li>Less/Sass</li>
-<li>Axure RP</li>
-<li>Mustache</li>
 <li>Jekyll</li>
+<li>GitHub</li>
+<li>Axure RP</li>
+<li>Omnigraffle</li>
+<li>Sketch</li>
+<li>Invision</li>
 <li>Adobe CC</li>
 </ul>
 <h3>Working knowledge of: </h3>
