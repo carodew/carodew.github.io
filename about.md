@@ -31,7 +31,6 @@ img-path: "../img"
 		</p>
 	<div class="social">
 	<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
-	<a class="tw" id="twitter" href="https://twitter.com/carodew" title="Design-related tweets mixed with me trying to be funny." onclick="_gaq.push(['_trackEvent', 'Social','Click', 'Twitter']);">Twitter</a>
 	<a class="pin" id="pinterest" href="http://pinterest.com/caslondew/" title="See what inspires and entertains me." onclick="_gaq.push(['_trackEvent', 'Social','Click','Pinterest']);">Pinterest</a>
 	</div>
 	</div>
