@@ -2,7 +2,7 @@ carodew.github.io
 =================
 Portfolio site, created in [Jekyll](http://jekyllrb.com). 
 
-##Notes to self: 
+## Notes to self: 
 
 To run locally: `jekyll serve --config _config-local.yml` or `jekyll serve  --config _config-local.yml --drafts` 
 
