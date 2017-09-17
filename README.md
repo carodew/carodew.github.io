@@ -24,5 +24,5 @@ Git will also ignore the old stuff that I once thought was cool but is now embar
 When I add a new project I need to add images. Specifically: 
 
 - Thumbnail – represents the project on the homepage. 157 × 102. Export at 2x size from Sketch. Filename is `[PROJECT]-thumb@2x.png`
-- Don't forget about the mobile view. That would be no bueno. 
+- Mobile view – homepage images min 366 x 216. Export at 3x size from Sketch. 
 - Project page – most images are 741 x whatever height. usually 402
