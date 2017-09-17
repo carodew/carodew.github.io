@@ -4,8 +4,8 @@ permalink: /turner-broadcasting/
 short-title:  "Turner Enterprise Software"
 long-title: "Turner Broadcasting, Inc. Enterprise Software"
 categories: ux
-thumbnail: "../img/turner-logo-thumb.gif" 
-mobile-image: "../img/turner-logo-thumb.gif"
+thumbnail: "turner-logo-thumb.gif" 
+mobile-image: "turner-thumb@3x.png"
 img-path: '../img/'
 ---
 
