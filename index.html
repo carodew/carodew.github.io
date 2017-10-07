@@ -5,37 +5,26 @@ img-path: "../img"
 ---
 <section class="portfolio">
 	<div class="section-label">
-		<h2 id="tehinterwebz">UX research and interaction&nbsp;design</h2>
+		<h2>UX research and interaction&nbsp;design</h2>
 	</div>
-	<div class="section-content">
+	<nav class="section-content">
+		<ul>
 		{% for post in site.categories.ux reversed %}
-				<a href="{{ post.permalink }}" class="project-thumbnail">
-				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
-				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
-		<div class="project-title">
-			<p>
-				{{ post.short-title }}
-			</p>
-		</div> 
-				</a>
+			{% include project-thumbnail.html %}
 		{% endfor %}
+		</ul>
+	</nav>
 </section>
 
 <section class="portfolio">
 	<div class="section-label">
-		<h2 id="marks">Visual design</h2>
+		<h2>Visual design</h2>
 	</div>
-	<div class="section-content">
+	<nav class="section-content">
+		<ul>
 		{% for post in site.categories.visual reversed %}
-				<a href="{{ post.permalink }}" class="project-thumbnail">
-				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
-				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
-		<div class="project-title">
-			<p>
-				{{ post.short-title }}
-			</p>
-		</div> 
-				</a>
+			{% include project-thumbnail.html %}
 		{% endfor %}
-	</div>
+		</ul>
+	</nav>
 </section>
