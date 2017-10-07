@@ -12,13 +12,10 @@ img-path: "../img"
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
-		<div class="project-title hidden-phone">
+		<div class="project-title">
 			<p>
 				{{ post.short-title }}
 			</p>
-		</div>
-		<div class="more visible-phone">
-			+
 		</div> 
 				</a>
 		{% endfor %}
@@ -33,13 +30,10 @@ img-path: "../img"
 				<a href="{{ post.permalink }}" class="project-thumbnail">
 				<img src="img/{{ post.thumbnail }}" alt="{{ post.short-title }}" class="thumbnail" >
 				<img src="img/{{ post.mobile-image }}" alt="{{ post.short-title }}" class="visible-phone" />
-		<div class="project-title hidden-phone">
+		<div class="project-title">
 			<p>
 				{{ post.short-title }}
 			</p>
-		</div>
-		<div class="more visible-phone">
-			+
 		</div> 
 				</a>
 		{% endfor %}

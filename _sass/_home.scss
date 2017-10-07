@@ -31,17 +31,17 @@
 
 @media screen and (min-width: $breakpoint1 ) {
 	.project-title { // this is the pink overlay/title over images on the index page
-		position: absolute;
-		top: 5px;
-		right: 5px;
-		bottom: 5px;
-		left: 5px;
+		//position: absolute;
+		//top: 5px;
+		// right: 5px;
+		// bottom: 5px;
+		// left: 5px;
 		font-family: $serifStack;
-		color: #ffffff;
-		margin-bottom: 0;
+		// color: #ffffff;
+		// margin-bottom: 0;
 		font-size: 0.9em;
 		font-weight: normal;
-		opacity: 0;
+		// opacity: 0;
 		background: $color-primary;
 		background: rgba($color-primary,0.93);
 		@include commonTransition(opacity, 0.3s); 
