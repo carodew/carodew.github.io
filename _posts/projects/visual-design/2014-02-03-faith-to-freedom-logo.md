@@ -3,7 +3,7 @@ layout: project
 permalink: /faith-to-freedom-logo/
 short-title:  "Faith to Freedom Logo"
 long-title: "Faith to Freedom Logo"
-categories: marks
+categories: visual
 thumbnail: "Faith-to-Freedom-thumb.png"
 mobile-image: "Faith-to-Freedom-Logo.png"
 img-path: '../img/'

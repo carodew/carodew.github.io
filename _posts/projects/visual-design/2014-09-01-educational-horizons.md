@@ -3,7 +3,7 @@ layout: project
 permalink: /educational-horizons-magazine/
 short-title:  "Educational Horizons Magazine"
 long-title: "<i>Educational Horizons</i> Magazine"
-categories: editorial
+categories: visual
 thumbnail: "horizons-cover-thumb.jpg"
 mobile-image: "horizons-cover-thumb.jpg"
 img-path: '../img/'
