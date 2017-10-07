@@ -35,8 +35,8 @@ $color-default-hover: lighten($color-default-link, 15%);
 $pageMargin: (24em/16); // 1.5em - side borders on page content
 $leftColumn: (170em/16);
 
-$breakpoint1: (550em/16); // 34.375em breaks from single column to thumbnails
-$breakpoint2: (979em/16); // 61.1875em caption information on project pages snaps to the left column
+$breakpoint1: (550em/16); // above 34.375em, the homepage layout breaks from a single column to thumbnails
+$breakpoint2: (979em/16); // above 61.1875em, the caption information on project pages snaps to the left column
 
 
 /* ================== Fonts ================== */

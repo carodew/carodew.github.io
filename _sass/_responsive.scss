@@ -11,8 +11,7 @@
 	left: -9999em;
 }
 
-.hidden-phone, 
-.thumbnail       { display: none !important; }
+.hidden-phone    { display: none !important; }
 .visible-phone   { display: inherit !important; }
 .visible-tablet  { display: none !important; }
 .visible-desktop { display: none !important; }

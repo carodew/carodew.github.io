@@ -42,9 +42,7 @@ header nav {
 		*width: 23.351063829787233%;
 	}
 	 h2 {
-		margin-top: 0.6em;
-		margin-left: $pageMargin;
-		font-size: 1em;
+		margin: 0.6em $pageMargin 1.6em;
 		font-weight: bold;
 		&:before {
 			/*pull the anchor link out from behind the fixed header */
@@ -53,7 +51,11 @@ header nav {
 			height: 125px;
 			margin: -125px 0 0;
 		}
-		@media screen and (min-width: $breakpoint1) { text-align: right; }
+		@media screen and (min-width: $breakpoint1) { 
+			font-size: 1.2em;
+			text-align: right; 
+			margin-right: 0;
+		}
 	}
 }
 
