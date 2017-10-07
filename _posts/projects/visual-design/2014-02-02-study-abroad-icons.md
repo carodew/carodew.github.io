@@ -3,7 +3,7 @@ layout: project
 permalink: /study-abroad-icons/
 short-title:  "Study Abroad Expo Icons"
 long-title: "Study Abroad Expo Icons"
-categories: marks
+categories: visual
 thumbnail: "globeface-thumb.png"
 mobile-image: "globeface.png"
 img-path: '../img/'
