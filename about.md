@@ -30,8 +30,7 @@ img-path: "../img"
 			<a href="mailto:carolynsdew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolynsdew@gmail.com</a>
 		</p>
 	<div class="social">
-	<a class="li" id="linkedin" href="http://www.linkedin.com/in/carolyndew" title="Straight-laced profile you can show your boss." onclick="_gaq.push(['_trackEvent', 'Social','Click','Linkedin']);">Linkedin</a>
-	<a class="pin" id="pinterest" href="http://pinterest.com/caslondew/" title="See what inspires and entertains me." onclick="_gaq.push(['_trackEvent', 'Social','Click','Pinterest']);">Pinterest</a>
+		{% include social.html %} 
 	</div>
 	</div>
 </section>
