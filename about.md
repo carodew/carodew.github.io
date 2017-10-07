@@ -25,7 +25,7 @@ img-path: "../img"
 		<p>
 			Carolyn Dew
 			<br>
-			Atlanta, Ga.
+			Alexandria, Va. 
 			<br>
 			<a href="mailto:carolynsdew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolynsdew@gmail.com</a>
 		</p>
