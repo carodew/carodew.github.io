@@ -8,7 +8,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # Or pass in --url 'http://127.0.0.1:4000' in command line with jekyll serve
 # url: "http://127.0.0.1:4000" # the base hostname & protocol for the local site.
 url: https://carodew.github.io # the base hostname & protocol for the remote site. 
-twitter_username: carodew
 github_username:  carodew
 
 # Build settings
