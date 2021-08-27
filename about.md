@@ -78,7 +78,7 @@ img-path: "../img"
 	Lean UX
 </li>
 
-<li>Agile/Scrum</li>
+<li>Agile</li>
 <li>interaction design</li>
 <li>usability testing</li>
 <li>contextual inquiry</li>
@@ -87,12 +87,11 @@ img-path: "../img"
 <li>rapid prototyping</li>
 <li>information architecture</li>
 <li>responsive design</li>
+<li>design systems</li>
 <li>web analytics</li>
-<li>content strategy</li>
 <li>user stories</li>
 <li>collaborative design techniques</li>
 <li>visual design</li>
-<li>branding</li>
 </ul>
 <ul class="skill-pills">
 <li>HTML5</li>
