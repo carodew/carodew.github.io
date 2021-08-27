@@ -104,11 +104,7 @@ img-path: "../img"
 <li>Omnigraffle</li>
 <li>Sketch</li>
 <li>Invision</li>
-<li>Adobe CC</li>
-</ul>
-<h3>Working knowledge of: </h3>
-<ul class="skill-pills">
-<li>JavaScript</li><li>JSON</li><li>jQuery</li><li>PHP</li><li>Git</li>
+<li>Figma</li>
 </ul>
 </div>
 </section>
