@@ -10,8 +10,7 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I'm a user experience lead at 18F, and I think a lot about inclusive design, behavioral economics, and the role of civil society. In addition to UX design and research, I can pinch hit as a visual designer, content strategist, or overall product strategist. </p>
-		<p>I previously worked at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master&apos;s degree in nonprofit management. Previous iterations of my career included visual design and some front end development (mostly HTML and CSS). I work remotely with my two cats, although they don&apos;t really contribute a whole lot.</p>
+		<p>I'm a senior interaction designer and user researcher. As a generalist, I’m comfortable designing microinteractions to shaping product strategy. I know enough html, css/sass, and Git to (mostly) stay out of trouble. </p>
 	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>-->
@@ -41,10 +40,8 @@ img-path: "../img"
 	</div>
 	<div class="section-content">
 	<ul class="unstyled">
-		<li>Ladies that UX Atlanta</li>
-		<li>Atlanta Web Design Group (AWDG)</li>
-		<li>IxDA Atlanta</li>
-		<li>Young Nonprofit Professionals Association (YNPN)</li>
+		<li>Coding it Forward (volunteer mentor)</li>
+		<li>Earth Sangha (volunteer)</li>
 	</ul>
 	</div>
 </section>
