@@ -1,23 +1,20 @@
 ---
 layout: project
-permalink: /federal-front-door-discovery/
-short-title:  "Federal Front Door discovery"
-long-title: "Federal Front Door discovery research"
+permalink: /Caseflow-design-lead/
+short-title:  "Caseflow design lead"
+long-title: "Design leadership for Caseflow"
 categories: ux
-thumbnail: "ffd-thumb@2x.png" 
-mobile-image: "ffd-thumb@3x.png"
+thumbnail: " "
+mobile-image: " "
 img-path: '../img/'
 ---
 
 ## Brief ##
 
-The USAGov team within the General Services Administration is responsible for helping citizens and the general public better understand and interact with the federal government as a whole. They have been fulfilling this mission primarily by maintaining a website with information about the government ([www.usa.gov](https://www.usa.gov)), operating call center, and by maintaining various social media accounts. USAGov's strategy needs to adapt to changing internet behavior, and particularly the increasing expectation to be able to complete interactions online. 
-
-I worked on a team of five researchers as part of the [Federal Front Door discovery research project](https://labs.usa.gov) in fall 2015 to learn more about how the general public interacts with the government, and what they think about those interactions. This set the stage for a series of experiments aimed at finding a new direction for USAGov. 
-
-<a href="https://labs.usa.gov/files/FFD_ResearchReport.pdf">Download the full research report (PDF)</a>
-
-
+When a veteran disagrees with a VA decision on a benefits claim, they are legally entitled to appeal that decision. Caseflow is an enterprise web application that supports the workflows for handling these for the Board of Appeals at the Department of Veterans Affairs. It is composed of multiple sub-products that support different parts of a complex system for issuing decisions on appeals. The Caseflow team is made up of about 30 engineers, product managers, and designers, organized into smaller agile teams, led by a program manager, a product lead, an engineering lead and a design lead (my role).
+When I joined the Caseflow team, they were a few months past shipping a large set of functionality ahead of a critical legislative deadline. Shortly after this deadline passed the U.S. Digital Service at the VA – who had been leading the effort – unexpectedly pulled out from the project. This left a leadership and skills gap on the team as well as eroded client trust.
+The design team itself had been left undersized and under-skilled relative to the scope and complexity of the work. Additionally, as a subcontractor, Nava could not independently make hiring and staffing decisions to correct these gaps.
+<!--
 <figure>
 	<img src="{{ page.img-path }}/ffd-report-access.png" alt="A page from our report describing barriers digital government services" />
 	<figcaption>
@@ -32,34 +29,30 @@ I worked on a team of five researchers as part of the [Federal Front Door discov
 	<img src="{{ page.img-path }}/ffd-workshop-2.png" alt="brainstorming workshop session">
 	<figcaption>Workshop sessions</figcaption>
 </figure>
-
+ -->
 
 ## What I did ##
 
-* As part of a team of seven researchers, conducted 45 user interviews in five representative cities across the U.S. to understand the public’s experience interacting with various government agencies.
-* Consulted secondary research sources to both inform our process and add context to our own findings. 
-* Collaborated with one other teammate to conduct a diary study with community librarians to learn more about what kinds of questions they get about government services.
-* Helped develop a concrete research plan and conversation guides based on abstract framing questions (for example, "What touch points do people think they have with the federal government?").
-* Collaboratively synthesized a large amount of data from raw interview notes and recordings using a grounded theory methodology. 
-* Identified design opportunities for USAGov to explore through experimentation. 
-* Created a print-friendly summary handout of our findings that can be delivered to senior bureaucrats, who are less likely to read a long report or follow a link to an online version. 
-* Led and coordinated the collaborative writing effort of the entire team to create a cohesive research report that explores our findings in detail.
-* Onboarded twelve employees to the project after volunteering to lead the project during the shift from discovery phase to experimentation. 
-
+* I provided coaching and mentorship to level up the skills of the designers on my team, while simultaneously advocating – internally and externally –for additional designers with more experience.
+* I established a regular critique practice and delegated facilitation to help team members practice soft leadership skills.
+* I developed frameworks and best practices for conducting and communicating user research.
+* I created a presentation that better connected the day to day work with the mission of helping veterans to inspire the team across disciplines.
+* I served as product owner for the design system, and helped transition the UI Kit to Figma, so the design team could better share and maintain common patterns and bake in best practices.
+* I proposed and initiated design and research presentations as regular parts of the Board’s sprint review meetings, which were consistently well received. This helped build client trust as well as design team confidence.
+* I helped transition design team practices when the entire team moved to a SAFe model to ensure design and research were not afterthoughts.
 
 ## Key Techniques and deliverables ##
 <ul class="skill-pills">
-	<li>research participant recruitment</li>
-	<li>user research</li>
-	<li>user interviews</li>
-	<li>recruitment screeners</li>
-	<li>intercept interviews</li>
-	<li>diary study</li>
-	<li>writing</li>
-	<li>affinity mapping</li>
-	<li>grounded theory</li>
+	<li>design leadership</li>
+	<li>design strategy</li>
+	<li>design systems</li>
+	<li>coaching and mentorship</li>
+	<li>critique</li>
 </ul>
 
 ## Results ##
 
-Our research findings helped inform the direction of multiple high-profile projects, including the U.S. Web Design Standards, [vote.gov](https://www.vote.gov), experiments in cross agency information exchange, and the Contact Center Center of Excellence in the U.S. General Services Administration (a White House priority). In addition, the team was invited to present our findings to the Executive Office of the President (December 2015), and have responded to inquiries from a variety of foreign, state, and local governments. 
+* Was able to grow the design team so that each junior designer was paired with a senior designer for leadership and coaching. Junior designers grew quickly in their knowledge and experience.
+* Design team went from a period of feeling overwhelmed and burned out to a sustainable and stable workflow.
+* Design system work codified a common set of patterns in a single source to be used throughout the application, moving the application towards more consistency in interaction patterns and visual design.
+* Client trust improved and the contracting team consistently began receiving high evaluation scores from our government partners.
