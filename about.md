@@ -38,12 +38,12 @@ I'm looking for a senior individual contributor role where I can provide high-qu
 
 <section class="resume">
 	<div class="section-label">
-		<h2>Involvement</h2>
+		<h2>Volunteer</h2>
 	</div>
 	<div class="section-content">
 	<ul class="unstyled">
-		<li>Coding it Forward (volunteer mentor)</li>
-		<li>Earth Sangha (volunteer)</li>
+		<li>Coding it Forward (mentor)</li>
+		<li>Earth Sangha</li>
 	</ul>
 	</div>
 </section>
