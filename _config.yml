@@ -2,12 +2,12 @@
 title: Carolyn Dew | UX Design and Research
 email: carolynsdew@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Portfolio site for Carolyn Dew, a user experience researcher and designer working in the civic space. 
+  Portfolio site for Carolyn Dew, a senior user experience designer and researcher working in the civic space.
 baseurl: "" # the subpath of your site, e.g. /blog/
-#Toggle commenting on the following lines for local vs remote. 
+#Toggle commenting on the following lines for local vs remote.
 # Or pass in --url 'http://127.0.0.1:4000' in command line with jekyll serve
 # url: "http://127.0.0.1:4000" # the base hostname & protocol for the local site.
-url: https://www.carolyndew.com # the base hostname & protocol for the remote site. 
+url: https://www.carolyndew.com # the base hostname & protocol for the remote site.
 github_username:  carodew
 
 # Build settings
