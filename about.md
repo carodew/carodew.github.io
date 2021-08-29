@@ -10,8 +10,7 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I'm a user experience lead at 18F, and I think a lot about inclusive design, behavioral economics, and the role of civil society. In addition to UX design and research, I can pinch hit as a visual designer, content strategist, or overall product strategist. </p>
-		<p>I previously worked at Turner Broadcasting, and prior to that I did various stints in the nonprofit sector, including getting a Master&apos;s degree in nonprofit management. Previous iterations of my career included visual design and some front end development (mostly HTML and CSS). I work remotely with my two cats, although they don&apos;t really contribute a whole lot.</p>
+		<p>I'm a senior interaction designer and user researcher. As a generalist, I’m comfortable working with engineers to design microinteractions to collaborating with product managers to shape strategy. I'm looking for a senior individual contributor role where I can provide high-quality work for the social good, coach and mentor other designers, and create best-in-class accessible products.</p>
 	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>-->
@@ -25,12 +24,12 @@ img-path: "../img"
 		<p>
 			Carolyn Dew
 			<br>
-			Alexandria, Va. 
+			Alexandria, Va.
 			<br>
 			<a href="mailto:carolynsdew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolynsdew@gmail.com</a>
 		</p>
 	<div class="social">
-		{% include social.html %} 
+		{% include social.html %}
 	</div>
 	</div>
 </section>
@@ -41,13 +40,12 @@ img-path: "../img"
 	</div>
 	<div class="section-content">
 	<ul class="unstyled">
-		<li>Ladies that UX Atlanta</li>
-		<li>Atlanta Web Design Group (AWDG)</li>
-		<li>IxDA Atlanta</li>
-		<li>Young Nonprofit Professionals Association (YNPN)</li>
+		<li>Coding it Forward (volunteer mentor)</li>
+		<li>Earth Sangha (volunteer)</li>
 	</ul>
 	</div>
 </section>
+<!--
 <section class="resume">
 	<div class="section-label">
 		<h2>Worked with</h2>
@@ -70,6 +68,7 @@ img-path: "../img"
 	</ul>
 	</div>
 </section>
+ -->
 
 <section class="skills">
 <div class="section-label">
@@ -81,7 +80,7 @@ img-path: "../img"
 	Lean UX
 </li>
 
-<li>Agile/Scrum</li>
+<li>Agile</li>
 <li>interaction design</li>
 <li>usability testing</li>
 <li>contextual inquiry</li>
@@ -90,12 +89,11 @@ img-path: "../img"
 <li>rapid prototyping</li>
 <li>information architecture</li>
 <li>responsive design</li>
+<li>design systems</li>
 <li>web analytics</li>
-<li>content strategy</li>
 <li>user stories</li>
 <li>collaborative design techniques</li>
 <li>visual design</li>
-<li>branding</li>
 </ul>
 <ul class="skill-pills">
 <li>HTML5</li>
@@ -107,11 +105,7 @@ img-path: "../img"
 <li>Omnigraffle</li>
 <li>Sketch</li>
 <li>Invision</li>
-<li>Adobe CC</li>
-</ul>
-<h3>Working knowledge of: </h3>
-<ul class="skill-pills">
-<li>JavaScript</li><li>JSON</li><li>jQuery</li><li>PHP</li><li>Git</li>
+<li>Figma</li>
 </ul>
 </div>
 </section>

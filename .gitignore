@@ -7,4 +7,5 @@ _posts/_proprietary/
 _removed/
 _config-local.yml
 jekyll-command.txt
+.jekyll-cache/
 .DS_Store
