@@ -10,7 +10,7 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I'm a senior interaction designer and user researcher. As a generalist, I’m comfortable designing microinteractions to shaping product strategy. I know enough html, css/sass, and Git to (mostly) stay out of trouble. </p>
+		<p>I'm a senior interaction designer and user researcher. As a generalist, I’m comfortable designing microinteractions to shaping product strategy. I'm looking for a senior individual contributor role where I can provide high-quality work for the social good, coach and mentor other designers, and create best-in-class accessible products.</p>
 	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>-->
@@ -24,12 +24,12 @@ img-path: "../img"
 		<p>
 			Carolyn Dew
 			<br>
-			Alexandria, Va. 
+			Alexandria, Va.
 			<br>
 			<a href="mailto:carolynsdew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolynsdew@gmail.com</a>
 		</p>
 	<div class="social">
-		{% include social.html %} 
+		{% include social.html %}
 	</div>
 	</div>
 </section>
@@ -45,6 +45,7 @@ img-path: "../img"
 	</ul>
 	</div>
 </section>
+<!--
 <section class="resume">
 	<div class="section-label">
 		<h2>Worked with</h2>
@@ -67,6 +68,7 @@ img-path: "../img"
 	</ul>
 	</div>
 </section>
+ -->
 
 <section class="skills">
 <div class="section-label">
