@@ -4,8 +4,8 @@ permalink: /Caseflow-design-lead/
 short-title:  "Caseflow design lead"
 long-title: "Design leadership for Caseflow"
 categories: ux
-thumbnail: " "
-mobile-image: " "
+thumbnail: "caseflow-thumb@2x.png"
+mobile-image: "caseflow-thumb@3x.png"
 img-path: '../img/'
 ---
 
