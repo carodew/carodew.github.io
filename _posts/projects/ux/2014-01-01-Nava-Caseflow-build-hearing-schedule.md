@@ -1,8 +1,8 @@
 ---
 layout: project
-permalink: /Caseflow-hearings-discovery/
-short-title:  "Caseflow Hearings discovery"
-long-title: "Caseflow Hearings discovery"
+permalink: /Caseflow-schedule-virtual-hearings/
+short-title:  "Caseflow schedule virtual hearings"
+long-title: "Caseflow schedule virtual hearings"
 categories: ux
 thumbnail: " "
 mobile-image: " "
@@ -17,7 +17,7 @@ We knew that this process was a huge pain point for hearing branch leadership bu
 
 Our team of four designers conducted a targeted discovery research study to better understand this problem and where our potential intervention points would be. I served as design’s ‘feature owner’ for this study – the primary design point of contact for the team in shaping the work and driving it forward. I was working with two other designers, both of whom had limited experience conducting discovery research and ensuring those findings were relevant to upcoming product decisions.
 
-We had about eight weeks to understand the current problem space and communicate our learnings out to the broader team and VA stakeholders. But because our product manager needed to begin mapping out the next quarter’s roadmap before the end of our study, we knew we needed to have a near complete understanding within six weeks. To that end, I requested the product manager and lead engineer attend as many user sessions as possible so they would develop an understanding of the problem in real time.
+We had about eight weeks to understand the current problem space and communicate our learnings out to the broader team and VA stakeholders. But because our product manager needed to begin mapping out the next quarter’s roadmap before the end of our study, we knew we needed to have a near complete understanding within <i>six</i> weeks. To that end, I requested the product manager and lead engineer attend as many user sessions as possible so they would develop an understanding of the problem in real time.
 
 I also recommended we forgo writing a traditional research report in favor of capturing our insights into a service blueprint. This way we could co-create the blueprint during our user interviews to quickly build our understanding and keep the conversations productive, and we would end with a durable artifact that could be picked up by a future team quickly should development work be postponed.
 
@@ -25,7 +25,7 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 
 <figure>
 	<img src="{{ page.img-path }}/BuildHearingSched-workflow@2x.png" alt="A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes." />
-	<figcaption> A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes.
+	<figcaption>Main research deliverable: user journey map
 	</figcaption>
 	<a href="{{ page.img-path }}/BuildHearingSched-workflow-fullsize.png">See full size journey map (PDF)</a>
 </figure>
@@ -39,13 +39,13 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 * Supported our junior designer in introducing an ‘equity pause’ in our research process to reflect on our own biases and ensure we treated our research participants equitably.
 <figure>
 	<img src="{{ page.img-path }}/BuildHearingSched-equity@2x.png" alt="Output from an equity pause workshop where research participant groups are identified and placed on a heirarchy of power, with notes on how we can make their participation more equitable"/>
-	<figcaption>Output from an equity pause workshop where research participant groups are identified and placed on a heirarchy of power, with notes on how we can make their participation more equitable
+	<figcaption>Output from an equity pause workshop
 	</figcaption>
 </figure>
 * Facilitated a workshop to guide the team in prioritizing which pain points would be the most important to solve first.
 <figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-prioritization@2x.png" alt="A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus."/>
-	<figcaption>A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus.
+	<img src="{{ page.img-path }}/BuildHearingSched-priortization@2x.png" alt="A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus."/>
+	<figcaption>Output from part of a prioritization workshop
 	</figcaption>
 </figure>
 
@@ -60,5 +60,5 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 </ul>
 
 ## Results ##
-As we feared, the Board shifted its priorities before the next quarter arrived and improvements to this process were pushed further out into the future. I did follow up with our product manager, who expressed appreciation for our research and deliverable, and stated that through our research he gained several ideas for how to break out smaller chunks of work to make incremental improvements to the build hearing schedule process.
+As predicted, the Board shifted its priorities before the next quarter arrived and improvements to this process were pushed further out into the future. I did follow up with our product manager, who expressed appreciation for our research and deliverable, and stated that through our research he gained several ideas for how to break out smaller chunks of work to make incremental improvements to the build hearing schedule process.
 
