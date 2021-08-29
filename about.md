@@ -10,7 +10,7 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I'm a senior interaction designer and user researcher. As a generalist, I’m comfortable designing microinteractions to shaping product strategy. I'm looking for a senior individual contributor role where I can provide high-quality work for the social good, coach and mentor other designers, and create best-in-class accessible products.</p>
+		<p>I'm a senior interaction designer and user researcher. As a generalist, I’m comfortable working with engineers to design microinteractions to collaborating with product managers to shape strategy. I'm looking for a senior individual contributor role where I can provide high-quality work for the social good, coach and mentor other designers, and create best-in-class accessible products.</p>
 	<!--<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>-->
