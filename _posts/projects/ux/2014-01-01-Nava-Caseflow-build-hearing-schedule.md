@@ -1,8 +1,8 @@
 ---
 layout: project
-permalink: /Caseflow-schedule-virtual-hearings/
-short-title:  "Caseflow schedule virtual hearings"
-long-title: "Caseflow schedule virtual hearings"
+permalink: /Caseflow-build-hearing-schedule-discovery/
+short-title:  "Caseflow build hearing schedule discovery"
+long-title: "Caseflow build hearing schedule discovery"
 categories: ux
 thumbnail: " "
 mobile-image: " "
@@ -45,8 +45,7 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 * Facilitated a workshop to guide the team in prioritizing which pain points would be the most important to solve first.
 <figure>
 	<img src="{{ page.img-path }}/BuildHearingSched-priortization@2x.png" alt="A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus."/>
-	<figcaption>Output from part of a prioritization workshop
-	</figcaption>
+	<figcaption>Output from a prioritization workshop (detail)</figcaption>
 </figure>
 
 ## Key Techniques and deliverables ##
