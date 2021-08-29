@@ -32,7 +32,7 @@ The design team itself found itself undersized and underskilled relative to the 
 <figure>
 	<img src="{{ page.img-path }}/caseflow-critique@2x.png" alt="A detail from our critique notes document." />
 	<figcaption>
-		A page from our report describing barriers digital government services
+		A detail from our critique notes document
 	</figcaption>
 </figure>
 * I developed frameworks and best practices for conducting and communicating user research, as well as securely handling veteran and research participant information.
