@@ -30,7 +30,7 @@ The design team itself found itself undersized and underskilled relative to the 
 * I provided coaching and mentorship to level up the skills of the designers on my team, while simultaneously advocating – internally and externally –for additional designers with more experience.
 * I established a regular critique practice and delegated facilitation to help team members practice soft leadership skills.
 <figure>
-	<img src="{{ page.img-path }}/caseflow-critique@2x.png" alt="A detail from our critique notes document." />
+	<img src="{{ page.img-path }}/Caseflow-critique@2x.png" alt="A detail from our critique notes document." />
 	<figcaption>
 		A detail from our critique notes document
 	</figcaption>
@@ -45,14 +45,14 @@ The design team itself found itself undersized and underskilled relative to the 
 * I created a presentation that better connected the day to day work with the mission of helping veterans to inspire the team across disciplines.
 * I served as product owner for the design system, and helped transition the UI Kit to Figma, so the design team could better share and maintain common patterns and bake in best practices.
 <figure>
-	<img src="{{ page.img-path }}/caseflow-UI-kit-resize.png" alt="An animation showing a page template, part of the Caseflow UI Kit, that uses Figma's layout functions to simulate responsive resizing." />
+	<img src="{{ page.img-path }}/caseflow-UI-kit-resize.gif" alt="An animation showing a page template, part of the Caseflow UI Kit, that uses Figma's layout functions to simulate responsive resizing." />
 	<figcaption>
 		An animation showing a page template, part of the Caseflow UI Kit, that uses Figma's layout functions to simulate responsive resizing.
 	</figcaption>
 </figure>
 * I proposed and initiated design and research presentations as regular parts of our stakeholders' sprint review meetings, with clear internal goals for the impact we wanted to see on the team. These presentations bolstered client trust as well as design team confidence.
 <figure>
-	<img src="{{ page.img-path }}/caseflow-comms-strat@2x.png" alt="Two diagrams at the top, with the left one showing the current state of our stakeholders' understanding of software development, based on traditional project management. The diagram on the right shows our desired state for stakeholder understanding, which approaches problems from an agile mindset. Below are strategies and tactics the Caseflow design team can use to help nudge our stakeholders from the current traditional mindset to the desired agile mindset. />
+	<img src="{{ page.img-path }}/caseflow-comms-strat@2x.png" alt="Two diagrams at the top, with the left one showing the current state of our stakeholders' understanding of software development, based on traditional project management. The diagram on the right shows our desired state for stakeholder understanding, which approaches problems from an agile mindset. Below are strategies and tactics the Caseflow design team can use to help nudge our stakeholders from the current traditional mindset to the desired agile mindset." />
 	<figcaption>
 		A diagram I created to explain how we would like to shift stakeholder perceptions from a traditional project management approach to a more agile mindset, as well as strategies and tactics for moving in that direction.
 	</figcaption>
@@ -60,7 +60,7 @@ The design team itself found itself undersized and underskilled relative to the 
 * I facilitated conversations that improved the relationship between product and design teams, and worked with the product lead to define how human-centered design fit within the product planning lifecycle. I also prepared the team to transition to a SAFe methodology, ensuring that design and user research were not afterthoughts.
 <figure>
 	<img src="{{ page.img-path }}/caseflow-design-n-prod@2x.png" alt="A detail from a collaborative Mural created during a workshop with the Caseflow design and product teams, following the What I Need From You framework from Liberating Structures. On the left are requests that each team made from the other." />
-	<img src="{{ page.img-path }}/caseflow-prod-lifecyle@2x.png" alt="An image of a diagram made in collaboration with the Caseflow product lead and another design lead. The diagram takes the product managers product development cycle over three program increments, and lays out design and user research activities through that time period so that the product roadmap is informed by user needs." />
+	<img src="{{ page.img-path }}/caseflow-prod-lifecycle@2x.png" alt="An image of a diagram made in collaboration with the Caseflow product lead and another design lead. The diagram takes the product managers product development cycle over three program increments, and lays out design and user research activities through that time period so that the product roadmap is informed by user needs." />
 	<img src="{{ page.img-path }}/caseflow-SAFe@2x.png" alt="An image I created to explain to our stakeholders how human-centered design would continue to inform product development as we transitioned to a SAFe metholology. Following SAFe terminology, it shows how user research informs decisions from interaction design all the way up to epics." />
 	<figcaption>
 		One of my main jobs as a design lead was explaining vague or complex concepts both internally to the team as well as externally to stakeholders, partners, and others. These images are examples of how I led conversations and clarified abstract ideas for how human-centered design fits within product development. Most were done in collaboration with others and rarely required a high level of polish.
@@ -78,7 +78,7 @@ The design team itself found itself undersized and underskilled relative to the 
 
 ## Results ##
 
-* Was able to grow the design team so that each junior designer was paired with a senior designer for leadership and coaching. Junior designers grew quickly in their knowledge and experience.
+* I ws able to grow the design team so that each junior designer was paired with a senior designer for leadership and coaching. Junior designers grew quickly in their knowledge and experience.
 * Design team went from a period of feeling overwhelmed and burned out to a sustainable and stable workflow.
 * Design system work codified a common set of patterns in a single source to be used throughout the application, moving the application towards more consistency in interaction patterns and visual design.
 * Client trust improved and the contracting team consistently began receiving high evaluation scores from our government partners.
