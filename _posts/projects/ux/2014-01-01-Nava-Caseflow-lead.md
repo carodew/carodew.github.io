@@ -32,7 +32,7 @@ The design team itself found itself undersized and underskilled relative to the 
 <figure>
 	<img src="{{ page.img-path }}/caseflow-critique@2x.png" alt="A detail from our critique notes document." />
 	<figcaption>
-		A page from our report describing barriers digital government services
+		A detail from our critique notes document
 	</figcaption>
 </figure>
 * I developed frameworks and best practices for conducting and communicating user research, as well as securely handling veteran and research participant information.
@@ -60,8 +60,8 @@ The design team itself found itself undersized and underskilled relative to the 
 * I facilitated conversations that improved the relationship between product and design teams, and worked with the product lead to define how human-centered design fit within the product planning lifecycle. I also prepared the team to transition to a SAFe methodology, ensuring that design and user research were not afterthoughts.
 <figure>
 	<img src="{{ page.img-path }}/caseflow-design-n-prod@2x.png" alt="A detail from a collaborative Mural created during a workshop with the Caseflow design and product teams, following the What I Need From You framework from Liberating Structures. On the left are requests that each team made from the other." />
-	<img src="{{ page.img-path }}/caseflow-prod-lifecyle.png" alt="An image of a diagram made in collaboration with the Caseflow product lead and another design lead. The diagram takes the product managers product development cycle over three program increments, and lays out design and user research activities through that time period so that the product roadmap is informed by user needs." />
-	<img src="{{ page.img-path }}/caseflow-SAFe.png" alt="An image I created to explain to our stakeholders how human-centered design would continue to inform product development as we transitioned to a SAFe metholology. Following SAFe terminology, it shows how user research informs decisions from interaction design all the way up to epics." />
+	<img src="{{ page.img-path }}/caseflow-prod-lifecyle@2x.png" alt="An image of a diagram made in collaboration with the Caseflow product lead and another design lead. The diagram takes the product managers product development cycle over three program increments, and lays out design and user research activities through that time period so that the product roadmap is informed by user needs." />
+	<img src="{{ page.img-path }}/caseflow-SAFe@2x.png" alt="An image I created to explain to our stakeholders how human-centered design would continue to inform product development as we transitioned to a SAFe metholology. Following SAFe terminology, it shows how user research informs decisions from interaction design all the way up to epics." />
 	<figcaption>
 		One of my main jobs as a design lead was explaining vague or complex concepts both internally to the team as well as externally to stakeholders, partners, and others. These images are examples of how I led conversations and clarified abstract ideas for how human-centered design fits within product development. Most were done in collaboration with others and rarely required a high level of polish.
 	</figcaption>
