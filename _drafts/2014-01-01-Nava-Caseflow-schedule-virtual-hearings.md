@@ -15,7 +15,7 @@ I worked as a senior designer and researcher on Caseflow Hearings (a sub-product
 
 Hearings are one of the main reasons veterans wait a long time for a decision on an appeal (an average wait time of about five years). Most veterans who appeal their claims request to have a hearing to discuss their appeal, but the VA’s ability to hold hearings is limited by the availability of Veterans Law Judges, physical hearing rooms, and hearing coordinators. To address the second limitation, the VA began piloting virtual (remote) hearings in the summer of 2019. When the pandemic hit the following spring, all in-person hearings were postponed indefinitely, and we supported the VA in pivoting quickly to all virtual hearings by rapidly developing and releasing an MVP for scheduling virtual hearings within Caseflow.
 
-Because of the dire need to release a first draft of this functionality as quickly as possible, that first release left a lot to be desired in terms of user experience. We needed to follow up this first release with a more thought out process for scheduling virtual hearings.
+Because of the dire need to release a first draft of this functionality as quickly as possible, that first release left a lot to be desired in terms of user experience. We needed to follow up this first release with a more thoughtful process for scheduling virtual hearings.
 
 One of our main challenges was to reimagine the entire scheduling workflow, which had been originally designed for in-person hearings. Virtual hearings differ from in-person hearings in some key ways:
 
@@ -52,7 +52,6 @@ As we cleaned up the designs, I distilled common components to add to our UI Kit
 	<img src="{{ page.img-path }}/virtualhearings-timeslot@2x.png" alt="An image of the final time slot design, with annotations indicating tab order and interactivity." />
 	<img src="{{ page.img-path }}/virtualhearings-timebutton@2x.png" alt="An image of time slot buttons in different states and with keyboard interaction notes." />
 	<img src="{{ page.img-path }}/virtualhearings-custominput@2x.png" alt="An image of a custom time input with annotations for interactivity and error messages" />
-
 	<figcaption>UI Patterns distilled for the UI Kit
 	</figcaption>
 </figure>
