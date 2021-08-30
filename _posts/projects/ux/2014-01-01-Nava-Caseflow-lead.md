@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: /Caseflow-design-lead/
-short-title:  "Caseflow design lead"
+permalink: /Caseflow-design-leadership/
+short-title:  "Caseflow design leadership"
 long-title: "Design leadership for Caseflow"
 categories: ux
 thumbnail: "caseflow-thumb@2x.png"
