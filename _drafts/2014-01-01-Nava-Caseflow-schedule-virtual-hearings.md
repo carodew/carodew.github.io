@@ -4,61 +4,79 @@ permalink: /Caseflow-virtual-hearings/
 short-title:  "Caseflow virtual hearings design"
 long-title: "Caseflow virtual hearings design"
 categories: ux
-thumbnail: " "
-mobile-image: " "
+thumbnail: "caseflow-thumb@2x.png"
+mobile-image: "caseflow-thumb@3x.png"
 img-path: '../img/'
 ---
 
 ## Brief ##
 
-In addition to supporting the Board’s pivot to remote hearings, the process for building the hearing schedule for the months ahead (that is, determining which days the Board would hold hearings and when Veterans Law Judges and hearing coordinators would be available) was a huge point of frustration for Hearings leadership. The original functionality had been built in a period of two weeks in 2019 to accommodate a last minute change in how the Board manages hearings, and improvements had never been prioritized until spring of 2021.
+I worked as a senior designer and researcher on Caseflow Hearings (a sub-product of Caseflow), which supports the scheduling and preparation for hearings on veterans appeals. I was on a team with three other designers (the Hearings design lead, one early-career, and one mid-career designer) embedded within a cross-functional agile team.
 
-We knew that this process was a huge pain point for hearing branch leadership but didn’t fully understand the shape of the problem or the best opportunities to make improvements. Additionally, our product manager suspected that even though this process was prioritized now, that could change before we had a chance to implement a wholesale redesign of the process. He was specifically interested in finding small, incremental improvements that the team could implement in smaller chunks, and which would be easier to get approval to work on.
+Hearings are one of the main reasons veterans wait a long time for a decision on an appeal (an average wait time of about five years). Most veterans who appeal their claims request to have a hearing to discuss their appeal, but the VA’s ability to hold hearings is limited by the availability of Veterans Law Judges, physical hearing rooms, and hearing coordinators. To address the second limitation, the VA began piloting virtual (remote) hearings in the summer of 2019. When the pandemic hit the following spring, all in-person hearings were postponed indefinitely, and we supported the VA in pivoting quickly to all virtual hearings by rapidly developing and releasing an MVP for scheduling virtual hearings within Caseflow.
 
-Our team of four designers conducted a targeted discovery research study to better understand this problem and where our potential intervention points would be. I served as design’s ‘feature owner’ for this study – the primary design point of contact for the team in shaping the work and driving it forward. I was working with two other designers, both of whom had limited experience conducting discovery research and ensuring those findings were relevant to upcoming product decisions.
+Because of the dire need to release a first draft of this functionality as quickly as possible, that first release left a lot to be desired in terms of user experience. We needed to follow up this first release with a more thought out process for scheduling virtual hearings.
 
-We had about eight weeks to understand the current problem space and communicate our learnings out to the broader team and VA stakeholders. But because our product manager needed to begin mapping out the next quarter’s roadmap before the end of our study, we knew we needed to have a near complete understanding within six weeks. To that end, I requested the product manager and lead engineer attend as many user sessions as possible so they would develop an understanding of the problem in real time.
+One of our main challenges was to reimagine the entire scheduling workflow, which had been originally designed for in-person hearings. Virtual hearings differ from in-person hearings in some key ways:
 
-I also recommended we forgo writing a traditional research report in favor of capturing our insights into a service blueprint. This way we could co-create the blueprint during our user interviews to quickly build our understanding and keep the conversations productive, and we would end with a durable artifact that could be picked up by a future team quickly should development work be postponed.
+* Virtual hearings are scheduled individually, whereas in-person hearings are scheduled in batches. That is, for in-person hearings, veterans and their representatives for several hearings show up at the same time, and the Veterans Law Judge calls each group back one at a time until all hearings are complete. For virtual hearings, the VA needed to give each veteran a specific start time so they could join from their own device.
+* Remote hearings require more attention from the hearing coordinators to ensure that the veteran can connect prior to the hearing taking place, and more in-the-moment tech support during the hearing.
+* Remote hearings can take place across multiple time zones (the judge, the veteran, and the veteran’s representative can all be in different time zones), while in-person hearings are scheduled for the time zone where they are held.
 
-As we went, we learned that a traditional service blueprint did not fit our communication needs  – the frontstage and backstage delineations did not make sense for a wholly internal process. As we went we pivoted the format a journey map that better represented our insights.
+We introduced the UI pattern of time slots, to give hearing coordinators a physical representation of when they could schedule hearings.
 
 <figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-workflow@2x.png" alt="A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes." />
-	<figcaption> A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes.
+	<img src="{{ page.img-path }}/virtualhearings-timeslotevolution@2x.png" alt="Three iterations of the time slot component design, showing both a scheduled and an empty time slot for each" />
+	<figcaption> Three iterations of the time slot design
 	</figcaption>
-	<a href="{{ page.img-path }}/BuildHearingSched-workflow-fullsize.png">See full size journey map (PDF)</a>
+</figure>
+We learned that hearing coordinators consider a lot of different data when scheduling hearings, so we surfaced the most relevant data to reduce the cognitive load.
+
+Hearing coordinators are a scrappy bunch and there is always an exception to any rule so we built for flexibility, while helping coordinators avoid simple mistakes. We introduced functionality to block off hearing slots that have already been scheduled on a docket, while preserving the ability for coordinators to override those blocks.
+
+We tested these concepts with hearing coordinators in an interactive Figma prototype. We identified a number of improvements to make:
+
+* Hearing coordinators wanted more detailed information in the success banner at the end of the workflow. They often work with multiple tabs open, and use this to keep track of what hearings they’ve already scheduled.
+* Hearing coordinators could not tell that the veteran’s name linked to the Case Details page, despite this being a common pattern within the rest of the application. We revised the design to make that link more findable.
+* Hearing coordinators liked seeing the timezone for the veteran and the timezone for the judge, but wanted the veteran’s timezone on top as they considered it more important. We made that switch.
+
+<figure>
+	<img src="{{ page.img-path }}/virtualhearings-usabilitytesting@2x.png" alt="A table showing results of our usability testing, with screenshots of the prototype along the top, and red, blue, and green sticky notes representing negative, neutral, and positive feedback below." />
+	<figcaption> Results of usability synthesis
+	</figcaption>
+</figure>
+
+As we cleaned up the designs, I distilled common components to add to our UI Kit, and provided accessibility and design annotations for engineers.
+
+<figure>
+	<img src="{{ page.img-path }}/virtualhearings-timeslot@2x.png" alt="An image of the final time slot design, with annotations indicating tab order and interactivity." />
+	<img src="{{ page.img-path }}/virtualhearings-timebutton@2x.png" alt="An image of time slot buttons in different states and with keyboard interaction notes." />
+	<img src="{{ page.img-path }}/virtualhearings-custominput@2x.png" alt="An image of a custom time input with annotations for interactivity and error messages" />
+
+	<figcaption>UI Patterns distilled for the UI Kit
+	</figcaption>
 </figure>
 
 ## What I did ##
+* Created interaction designs for displaying a docket day and scheduled and available time zones.
+* Reviewed all designs within the flow to ensure consistency between different designers.
+* Paired with a more early-career designer to develop the usability testing plan and led the team through synthesizing findings.
+* Iterated on microinteractions based on usability testing.
+* Provided guidance for keyboard interaction and coached other designers on designing for accessibility.
+* Distilled repeated UI patterns for inclusion in our UI Kit and design system.
 
-* Shaped the research plan and course of the research study – including multiple co-creation sessions with our core users and several interviews with VLJs, who were impacted by the build hearing schedule process.
-* Provided guidance to the team for what kinds of insights to focus on during user interviews and co-creation sessions.
-* Introduced ‘Synthesis Fridays’ – where the research team  would get together to reflect on that week’s learnings and determine if we needed to pivot in the following week.
-* Provided guidance to designers on the team to analyze interview transcripts for key insights and synthesize those into the user journey.
-* Supported our junior designer in introducing an ‘equity pause’ in our research process to reflect on our own biases and ensure we treated our research participants equitably.
-<figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-equity@2x.png" alt="Output from an equity pause workshop where research participant groups are identified and placed on a heirarchy of power, with notes on how we can make their participation more equitable"/>
-	<figcaption>Output from an equity pause workshop where research participant groups are identified and placed on a heirarchy of power, with notes on how we can make their participation more equitable
-	</figcaption>
-</figure>
-* Facilitated a workshop to guide the team in prioritizing which pain points would be the most important to solve first.
-<figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-prioritization@2x.png" alt="A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus."/>
-	<figcaption>A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus.
-	</figcaption>
-</figure>
 
 ## Key Techniques and deliverables ##
 <ul class="skill-pills">
-<li>discovery research</li>
-<li>collaborative design</li>
+<li>usability testing</li>
+<li>interactive prototypes</li>
 <li>user interviews</li>
-<li>journey maps</li>
-<li>prioritization</li>
-<li>workshop facilitation</li>
+<li>affinity diagramming</li>
+<li>interaction design</li>
+<li>design system</li>
+<li>accessibility</li>
 </ul>
 
 ## Results ##
-As we feared, the Board shifted its priorities before the next quarter arrived and improvements to this process were pushed further out into the future. I did follow up with our product manager, who expressed appreciation for our research and deliverable, and stated that through our research he gained several ideas for how to break out smaller chunks of work to make incremental improvements to the build hearing schedule process.
+We are still collecting data on if the new workflow is helping to avoid postponements due to scheduling mistakes, and if it helps hearing coordinators work more quickly.
 
