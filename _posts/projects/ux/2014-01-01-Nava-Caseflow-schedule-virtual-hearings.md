@@ -23,7 +23,7 @@ One of our main challenges was to reimagine the entire scheduling workflow, whic
 * Remote hearings require more attention from the hearing coordinators to ensure that the veteran can connect prior to the hearing taking place, and more in-the-moment tech support during the hearing.
 * Remote hearings can take place across multiple time zones (the judge, the veteran, and the veteran’s representative can all be in different time zones), while in-person hearings are scheduled for the time zone where they are held.
 
-We introduced the UI pattern of time slots, to give hearing coordinators a physical representation of when they could schedule hearings.
+As part of the previous MVP release, hearing coordinators only had a dropdown for choosing a hearing start time. We introduced the UI pattern of time slots, to give hearing coordinators a physical representation of when they could schedule hearings.
 
 <figure>
 	<img src="{{ page.img-path }}/virtualhearings-timeslotevolution@2x.png" alt="Three iterations of the time slot component design, showing both a scheduled and an empty time slot for each" />
