@@ -11,11 +11,11 @@ img-path: '../img/'
 
 ## Brief ##
 
-I worked as a senior designer and researcher on Caseflow Hearings (a sub-product of Caseflow), which supports the scheduling and preparation for hearings on veterans appeals. I was on a team with three other designers (the Hearings design lead, one early-career, and one mid-career designer) embedded within a cross-functional agile team.
+I worked as a senior designer and researcher on Caseflow Hearings (a sub-product of Caseflow) in an individual contributor role. Caseflow Hearings supports the scheduling and preparation for hearings on veterans appeals. I was on a team with three other designers (the Hearings design lead, one early-career, and one mid-career designer) embedded within a cross-functional agile team.
 
-Hearings are one of the main reasons veterans wait a long time for a decision on an appeal (an average wait time of about five years). Most veterans who appeal their claims request to have a hearing to discuss their appeal, but the VA’s ability to hold hearings is limited by the availability of Veterans Law Judges, physical hearing rooms, and hearing coordinators. To address the second limitation, the VA began piloting virtual (remote) hearings in the summer of 2019. When the pandemic hit the following spring, all in-person hearings were postponed indefinitely, and we supported the VA in pivoting quickly to all virtual hearings by rapidly developing and releasing an MVP for scheduling virtual hearings within Caseflow.
+Hearings are one of the main reasons veterans wait a long time for a decision on an appeal (an average wait time of about five years). Most veterans who appeal their claims request to have a hearing to discuss their appeal, but the VA’s ability to hold hearings has been limited by the availability of Veterans Law Judges, physical hearing rooms, and hearing coordinators. To address the second limitation, the VA began piloting virtual (remote) hearings in the summer of 2019. When the pandemic hit the following spring, all in-person hearings were postponed indefinitely, and we supported the VA in pivoting quickly to all virtual hearings by developing and releasing an MVP for scheduling virtual hearings within Caseflow.
 
-Because of the dire need to release a first draft of this functionality as quickly as possible, that first release left a lot to be desired in terms of user experience. We needed to follow up this first release with a more thoughtful process for scheduling virtual hearings.
+Because of the need to release a first draft of this functionality as quickly as possible, that first release left a lot to be desired in terms of user experience. We followed up this first release with a more thoughtful workflow for scheduling virtual hearings.
 
 One of our main challenges was to reimagine the entire scheduling workflow, which had been originally designed for in-person hearings. Virtual hearings differ from in-person hearings in some key ways:
 
@@ -23,16 +23,20 @@ One of our main challenges was to reimagine the entire scheduling workflow, whic
 * Remote hearings require more attention from the hearing coordinators to ensure that the veteran can connect prior to the hearing taking place, and more in-the-moment tech support during the hearing.
 * Remote hearings can take place across multiple time zones (the judge, the veteran, and the veteran’s representative can all be in different time zones), while in-person hearings are scheduled for the time zone where they are held.
 
-We introduced the UI pattern of time slots, to give hearing coordinators a physical representation of when they could schedule hearings.
+When I joined the Caseflow Hearings team, the Hearings design lead had already worked out a high level workflow and needed the team to translate that into interface design. We created a clickable prototype of the workflow that introduced several major changes:
+* Time slot cards, visual representations of a hearing times.
+* An appeal information sidebar that is persistent throughout the scheduling flow, to reduce the amount of information a hearing coordinators needs to keep in their head while scheduling
+* The ability to override the preset hearing time slots with a custom time, since hearing coordinates often need to make exceptions to accommodate veterans needs.
+
+*Note:* All images on this page use fake data.
 
 <figure>
 	<img src="{{ page.img-path }}/virtualhearings-timeslotevolution@2x.png" alt="Three iterations of the time slot component design, showing both a scheduled and an empty time slot for each" />
 	<figcaption> Three iterations of the time slot design
 	</figcaption>
 </figure>
-We learned that hearing coordinators consider a lot of different data when scheduling hearings, so we surfaced the most relevant data to reduce the cognitive load.
 
-Hearing coordinators are a scrappy bunch and there is always an exception to any rule so we built for flexibility, while helping coordinators avoid simple mistakes. We introduced functionality to block off hearing slots that have already been scheduled on a docket, while preserving the ability for coordinators to override those blocks.
+[Watch a walkthrough of our scheduling prototype](https://youtu.be/qnF5cXAiSV8)
 
 We tested these concepts with hearing coordinators in an interactive Figma prototype. We identified a number of improvements to make:
 
