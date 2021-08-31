@@ -13,7 +13,7 @@ img-path: '../img/'
 
 I worked as a senior designer and researcher on Caseflow Hearings (a sub-product of Caseflow) in an individual contributor role. Caseflow Hearings supports the scheduling and preparation for hearings on veterans appeals. I was on a team with three other designers (the Hearings design lead, one early-career, and one mid-career designer) embedded within a cross-functional agile team.
 
-The process for building the hearing schedule for the months ahead (that is, determining which days the Board would hold hearings and when Veterans Law Judges and hearing coordinators would be available) was a huge point of frustration for Hearings leadership. The original functionality had been built in a period of a few weeks in 2019 to accommodate a last minute change in how the Board manages hearings, and improvements had not been prioritized until spring of 2021.
+The process for building the hearing schedule for the months ahead (that is, determining which days the Board would hold hearings and when Veterans Law Judges (VLJs) and hearing coordinators would be available) was a huge point of frustration for Hearings leadership. The original functionality had been built in a period of a few weeks in 2019 to accommodate a last minute change in how the Board manages hearings, and improvements had not been prioritized until spring of 2021.
 
 We knew that this process was a huge pain point for hearing branch leadership but didn’t fully understand the shape of the problem or the best opportunities to make improvements. Additionally, our product manager suspected that even though this work was prioritized now, that could change before we had a chance to implement a wholesale redesign of the process. He was specifically interested in finding small, incremental improvements that the team could implement in smaller chunks, and which would be easier to get approval to work on.
 
@@ -23,7 +23,7 @@ We had about eight weeks to understand the current problem space and communicate
 
 I also recommended we forgo writing a traditional research report in favor of capturing our insights into a service blueprint. This way we could co-create the blueprint during our user interviews to quickly build our understanding and keep the conversations productive, and we would end with a durable artifact that could be picked up by a future team quickly should development work be postponed.
 
-As we went, we learned that a traditional service blueprint did not fit our communication needs  – the frontstage and backstage delineations did not make sense for a wholly internal process. As we went we pivoted the format a journey map that better represented our insights.
+As we went, we learned that a traditional service blueprint did not fit our communication needs  – the frontstage and backstage delineations did not make sense for a wholly internal process. We pivoted the format a journey map that better represented our insights.
 
 <figure>
 	<img src="{{ page.img-path }}/BuildHearingSched-workflow@2x.png" alt="A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes." />
@@ -38,7 +38,7 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 * Provided guidance to the team for what kinds of insights to focus on during user interviews and co-creation sessions.
 * Introduced ‘Synthesis Fridays’ – where the research team  would get together to reflect on that week’s learnings and determine if we needed to pivot in the following week.
 * Provided guidance to designers on the team to analyze interview transcripts for key insights and synthesize those into the user journey.
-* Supported our junior designer in introducing an ‘equity pause’ in our research process to reflect on our own biases and ensure we treated our research participants equitably.
+* Supported our junior designer in introducing an ‘equity pause’ to reflect on our own biases and ensure we treated our research participants equitably.
 <figure>
 	<img src="{{ page.img-path }}/BuildHearingSched-equity@2x.png" alt="Output from an equity pause workshop where research participant groups are identified and placed on a heirarchy of power, with notes on how we can make their participation more equitable"/>
 	<figcaption>Output from an equity pause workshop
@@ -61,5 +61,5 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 </ul>
 
 ## Results ##
-As predicted, the Board shifted its priorities before the next quarter arrived and improvements to this process were pushed further out into the future. I did follow up with our product manager, who expressed appreciation for our research and deliverable, and stated that through our research he gained several ideas for how to break out smaller chunks of work to make incremental improvements to the build hearing schedule process.
+As predicted, the Board shifted its priorities before the next quarter arrived and improvements to this process were pushed further out into the future. I followed up with our product manager, who expressed appreciation for our research and deliverable, and stated that through our research he gained several ideas for how to break out smaller chunks of work that could be more easily slotted into the road map.
 
