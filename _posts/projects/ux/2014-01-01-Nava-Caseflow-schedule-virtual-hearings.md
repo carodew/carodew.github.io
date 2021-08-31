@@ -28,7 +28,7 @@ When I joined the Caseflow Hearings team, the Hearings design lead had already w
 * An appeal information sidebar that is persistent throughout the scheduling flow, to reduce the amount of information a hearing coordinators needs to keep in their head while scheduling
 * The ability to override the preset hearing time slots with a custom time, since hearing coordinates often need to make exceptions to accommodate veterans needs.
 
-*Note:* All images on this page use fake data.
+*Note: All images on this page use fake data.*
 
 <figure>
 	<img src="{{ page.img-path }}/virtualhearings-timeslotevolution@2x.png" alt="Three iterations of the time slot component design, showing both a scheduled and an empty time slot for each" />
