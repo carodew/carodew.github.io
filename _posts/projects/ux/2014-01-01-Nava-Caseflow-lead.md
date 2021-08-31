@@ -21,7 +21,7 @@ Caseflow is an enterprise web application with the goal of reducing the time vet
 
 The Caseflow team is a cross-functional mix of about 30 engineers, product managers, and designers, organized into separate agile teams with their own areas of focus. The entire effort is led by a leadership team composed of a program director, a product manager lead, an engineering lead, and a design lead (my role).
 
-When I joined the Caseflow team in the spring of 2019, they were a few months past shipping a large set of functionality ahead of a [critical legislative deadline](https://www.congress.gov/bill/115th-congress/house-bill/2288). Shortly after, the U.S. Digital Service at the VA – who had been leading the effort – abruptly pulled out from the project. This left a leadership and skills gap on the team as well as eroded client trust.
+When I joined the Caseflow team in the spring of 2019, they were a few months past shipping a large set of functionality ahead of a [critical legislative deadline](https://www.congress.gov/bill/115th-congress/house-bill/2288). Shortly after, the VA-internal digital services organization – which had been leading the effort – abruptly pulled out from the project. This left a leadership and skills gap on the team as well as eroded client trust.
 
 The design team itself found itself undersized and underskilled relative to the scope and complexity of the work. Additionally, as a subcontractor, Nava could not independently make hiring and staffing decisions to correct these gaps.
 
