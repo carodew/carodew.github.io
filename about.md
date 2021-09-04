@@ -44,6 +44,8 @@ img-path: "../img"
 	<ul class="unstyled">
 		<li>Coding it Forward (mentor)</li>
 		<li>Earth Sangha</li>
+		<li>Potomac Appalachian Trail Club</li>
+
 	</ul>
 	</div>
 </section>
