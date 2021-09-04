@@ -13,9 +13,9 @@ img-path: "../img"
 		<p>I'm a senior interaction designer and user researcher. As a generalist, I'm comfortable designing microinteractions to shaping product strategy.</p>
 
 <p>I'm looking for a senior individual contributor role where I can provide high-quality work for the social good, coach and mentor other designers, and create best-in-class accessible products.</p>
-	<!--<div class="a-resume" >
+	<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
-		</div>-->
+		</div>
 	</div>
 </section>
 <section class="contact">
@@ -45,33 +45,9 @@ img-path: "../img"
 		<li>Coding it Forward (mentor)</li>
 		<li>Earth Sangha</li>
 		<li>Potomac Appalachian Trail Club</li>
-
 	</ul>
 	</div>
 </section>
-<!--
-<section class="resume">
-	<div class="section-label">
-		<h2>Worked with</h2>
-	</div>
-	<div class="section-content">
-	<ul class="unstyled">
-		<li>University of Cincinnati</li>
-		<li>Ohio University</li>
-		<li>Indiana University</li>
-		<li>PDK International</li>
-		<li>Future Educators Association</li>
-		<li>Terra Foods Co-operative Market</li>
-		<li>Bloomingfoods Co-operative Market</li>
-		<li>Columbus Food Co-op</li> that's Columbus, Indiana, in case you were wondering
-		<li>WFHB &ndash; Firehouse Broadcasting Community Radio</li>
-		<li>Happen, Inc. (arts education nonprofit in Cincinnati, Ohio)</li>
-		<li>SALSAtlanta</li>
-		<li>APE Games</li>
-		<li>Independent artists and crafters</li>
-	</ul>
-	</div>
-</section> -->
 
 <section class="skills">
 <div class="section-label">
@@ -79,10 +55,7 @@ img-path: "../img"
 </div>
 <div class="section-content">
 <ul class="skill-pills">
-<li>
-	Lean UX
-</li>
-
+<li>Lean UX</li>
 <li>Agile</li>
 <li>interaction design</li>
 <li>usability testing</li>
