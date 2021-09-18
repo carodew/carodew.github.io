@@ -29,7 +29,7 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 	<img src="{{ page.img-path }}/BuildHearingSched-workflow@2x.png" alt="A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes." />
 	<figcaption>Main research deliverable: user journey map
 	</figcaption>
-	<a href="{{ page.img-path }}/BuildHearingSched-workflow-fullsize.png">See full size journey map (PDF)</a>
+	<a href="{{ page.img-path }}/BuildHearingSched-workflow-fullsize.png">See full size journey map (PNG)</a>
 </figure>
 
 ## What I did ##
