@@ -13,6 +13,8 @@ img-path: "../img"
 		<p>I'm a senior interaction designer and user researcher. As a generalist, I'm comfortable designing microinteractions to shaping product strategy.</p>
 
 <p>I'm looking for a senior individual contributor role where I can provide high-quality work for the social good, coach and mentor other designers, and create best-in-class accessible products.</p>
+		
+		<p>I live in Alexandria, Va., on land previously part of the Piscataway and Doeg communities, and an Acidic Oak-Hickory Forest natural community. </p>
 	<div class="a-resume" >
 	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>
