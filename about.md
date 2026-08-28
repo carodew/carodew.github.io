@@ -30,11 +30,8 @@ img-path: "../img"
 			<br>
 			Alexandria, Va.
 			<br>
-			<a href="mailto:carolynsdew@gmail.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolynsdew@gmail.com</a>
+			<a href="mailto:carolyn@carolyndew.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyn@carolyndew.com</a>
 		</p>
-	<div class="social">
-		{% include social.html %}
-	</div>
 	</div>
 </section>
 
