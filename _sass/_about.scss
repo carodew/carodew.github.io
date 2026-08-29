@@ -6,12 +6,10 @@
 		margin-bottom: 0;
 		line-height: 160%;
 		width: 100%;
-		margin-right: 1em; 
+		margin-right: 1em;
 		font-family: $serifStack;
-		@media screen and (min-width: $breakpoint1) {
-			width: 70%;
-			max-width: 50em;
-		}
+		// The measure is set by $contentColumn on the grid now, so this no
+		// longer narrows the paragraph to 70% of an already-capped column.
 	}
 }
 .a-resume {
