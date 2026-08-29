@@ -31,18 +31,12 @@ header nav {
 }
 
 .section-label {
-	border-top: 10px solid $color-base-text;
-	min-width: 70px;
-	width: 100%;
-	min-height: 30px;	 
-	margin-left: 0;
-	overflow: hidden;
-	@media screen and (min-width: $breakpoint1) {
-		width: (242%/1034*100); /*242/1034*/
-		*width: 23.351063829787233%;
+	min-height: 30px;
+	@media screen and (min-width: $breakpointColumns) {
+		grid-column: 1;
 	}
 	 h2 {
-		margin: 0.6em $pageMargin 1.6em;
+		margin: 0.6em 0 1.6em;
 		font-weight: bold;
 		&:before {
 			/*pull the anchor link out from behind the fixed header */
@@ -51,27 +45,33 @@ header nav {
 			height: 125px;
 			margin: -125px 0 0;
 		}
-		@media screen and (min-width: $breakpoint1) { 
+		@media screen and (min-width: $breakpointColumns) {
 			font-size: 1.2em;
-			text-align: right; 
-			margin-right: 0;
+			text-align: right;
 		}
 	}
 }
 
 .section-content {
-	clear: both;
-	margin-left: $pageMargin;
-	margin-right: $pageMargin;
 	padding-bottom: 0.2em;
-	@media screen and (min-width: $breakpoint1)  {
-		margin-left: (242%/1034*100); /*242/1034*/
-		width: (792%/1034*100); /*100-margin-left*/
-		max-width: (828em/16); // limits portfolio to four projects in a row 
+	@media screen and (min-width: $breakpointColumns)  {
+		grid-column: 2;
 	}
 }
 
+// The page container. Below $breakpointColumns the label stacks above the
+// content; above it they sit side by side, with the label right-aligned so it
+// meets the gutter. The block stays anchored to the left edge past
+// $pageMaxWidth rather than centring - see issue #67.
 .portfolio, .contact, .resume, .project-detail, .skills {
-	margin-top: 90px; 
 	margin-top: 20px;
+	box-sizing: border-box; // so $pageMaxWidth is the outer width, padding included
+	max-width: $pageMaxWidth;
+	padding: 0 $pageMarginMobile;
+	@media screen and (min-width: $breakpointColumns) {
+		padding: 0 $pageMargin;
+		display: grid;
+		grid-template-columns: $labelColumn $contentColumn;
+		column-gap: $columnGutter;
+	}
 }
