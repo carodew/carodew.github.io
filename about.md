@@ -26,11 +26,11 @@ img-path: "../img"
 	</div>
 	<div class="section-content">
 		<p>
-			Carolyn Dew (she/her)
-			<br>
-			Alexandria, Va.
-			<br>
-			<a href="mailto:carolyn@carolyndew.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyn@carolyndew.com</a>
+			Carolyn Dew 
+			<br>(she/her)
+			</p>
+			<p>
+				<a href="mailto:carolyn@carolyndew.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyn@carolyndew.com</a>
 		</p>
 	</div>
 </section>
