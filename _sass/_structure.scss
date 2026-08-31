@@ -54,26 +54,16 @@ header nav {
 	}
 }
 
-// The page container. Below $breakpointColumns the label stacks above the
-// content; above it they sit side by side, with the label right-aligned so it
-// meets the gutter. The block stays anchored to the left edge past
-// $pageMaxWidth rather than centring - see issue #67.
+// Below $breakpointColumns the label stacks above the content; above it they
+// sit side by side, with the label right-aligned so it meets the gutter. The
+// block stays anchored to the left edge past $pageMaxWidth rather than
+// centring - see issue #67.
+//
+// align-items: baseline (in the mixin) makes the label line up with the
+// content's first line whether that content starts with a paragraph or a
+// list. Known exception: .skill-pills, whose inline-block items give the grid
+// a baseline that does not match where the pill text sits.
 .portfolio, .contact, .resume, .project-detail, .skills {
 	margin-top: 20px;
-	box-sizing: border-box; // so $pageMaxWidth is the outer width, padding included
-	max-width: $pageMaxWidth;
-	padding: 0 $pageMarginMobile;
-	@media screen and (min-width: $breakpointColumns) {
-		padding: 0 $pageMargin;
-		display: grid;
-		grid-template-columns: $labelColumn $contentColumn;
-		column-gap: $columnGutter;
-		// Align the label and the content on their first baselines rather than
-		// their box tops, so the label lines up whether the content starts
-		// with a paragraph or a list. Without this, alignment depended on the
-		// first child happening to carry a compensating top margin.
-		// Known exception: .skill-pills, whose inline-block items give the grid
-		// a baseline that does not match where the pill text sits.
-		align-items: baseline;
-	}
+	@include pageColumns;
 }
