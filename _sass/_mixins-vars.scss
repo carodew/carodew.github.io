@@ -26,11 +26,24 @@ $color-default-hover: lighten($color-default-link, 15%);
 
 /* ================== Layout/Breakpoints ================== */
 
-$pageMargin: (24em/16); // 1.5em - side borders on page content
+$pageMarginMobile: (20em/16); // 1.25em - side gutter below $breakpointColumns
+$pageMargin: (32em/16); // 2em - side gutter on page content
+$pageMaxWidth: (850em/16); // 53.125em - content stops growing here and stays left-anchored
 $leftColumn: (170em/16);
+
+// Label and content columns, as percentages of the container's inner width
+// (786px once the container hits $pageMaxWidth). They sum to exactly 100%.
+// The accent bar's thick segment is $pageMargin + $labelColumn, so these two
+// have to stay in sync for that alignment to hold.
+$labelColumn: (208/786) * 100%; // 208px at max width
+$columnGutter: (24/786) * 100%; //  24px
+$contentColumn: (554/786) * 100%; // 554px - caps the measure at roughly 70 characters
 
 $breakpoint1: (550em/16); // above 34.375em, the homepage layout breaks from a single column to thumbnails
 $breakpoint2: (979em/16); // above 61.1875em, the caption information on project pages snaps to the left column
+$breakpointColumns: (768em/16); // 48em - label and content split into two columns.
+// Deliberately higher than $breakpoint1: at 550px the content column would be
+// about 343px, roughly 45 characters, which is too narrow for body prose.
 
 
 /* ================== Fonts ================== */
@@ -39,6 +52,29 @@ $sansStack: "ff-tisa-sans-web-pro","Trebuchet MS" ,"Helvetica Neue", Helvetica, 
 $serifStack: "ff-tisa-web-pro", 'Georgia', 'Times', serif; 
 
 /* ================== Mixins ================== */
+
+// The page container: caps the width and sets the side gutters. Anything
+// using this lines up on the same left edge, header and footer included.
+@mixin pageContainer {
+		box-sizing: border-box; // so $pageMaxWidth is the outer width, padding included
+		max-width: $pageMaxWidth;
+		padding: 0 $pageMarginMobile;
+		@media screen and (min-width: $breakpointColumns) {
+				padding: 0 $pageMargin;
+		}
+}
+
+// The container plus the two-column grid. Below $breakpointColumns children
+// stack; above it they sit side by side on a shared first baseline.
+@mixin pageColumns {
+		@include pageContainer;
+		@media screen and (min-width: $breakpointColumns) {
+				display: grid;
+				grid-template-columns: $labelColumn $contentColumn;
+				column-gap: $columnGutter;
+				align-items: baseline;
+		}
+}
 
 @mixin commonTransition ($property: all, $duration: 0.3s) {
 		-webkit-transition: $property $duration;
