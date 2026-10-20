@@ -36,8 +36,22 @@ header {
 
 header .nav-top {
 	@media screen and (min-width: $breakpointColumns) {
-		grid-column: 1 / -1; // own row spanning both columns, below the logotype
+		grid-column: 1; // same column as the logotype, on the row beneath it
 		margin-left: 0;
+		text-align: right;
+		ul {
+			margin-right: 0;
+			> li {
+				float: none; // floated items ignore text-align
+				display: inline-block;
+				&:last-child {
+					// Drop the trailing offsets so the last link's text edge
+					// meets the column, rather than its padding doing so.
+					margin-right: 0;
+					> a { padding-right: 0; }
+				}
+			}
+		}
 	}
 }
 
