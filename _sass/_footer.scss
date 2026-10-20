@@ -6,28 +6,48 @@ footer {
 	color: $color-light-text;
 	border-top: 1px solid $darkGray;
 	font-family: $sansStack;
+	// Flex, so the nav and the copyright sit on a shared text baseline rather
+	// than being top-aligned inline-blocks nudged into place by hand.
+	@media screen and (min-width: $breakpoint1) {
+		display: flex;
+		align-items: baseline;
+	}
 }
 
 #bottom-nav {
-	padding-top: 10px;
 	*display: inline;
 	*zoom: 1;
 	@media screen and (min-width: $breakpoint1) {
 		width: 33%;
-		display: inline-block;
+		// A flex item whose overflow is not visible gets a baseline synthesized
+		// from its border box instead of its text. The floats this was
+		// containing are gone, so it can go.
+		overflow: visible;
+		ul { margin: 0; }
+		> ul > li {
+			float: none; // floats produce no line box for the baseline to use
+			display: inline-block;
+			margin: 0 10px 0 0;
+			// The global li rule sets 1.6em, which at this font size is a 28px
+			// line box and drops the text well below the copyright's baseline.
+			line-height: inherit;
+			> a {
+				// Inline rather than block: vertical padding still grows the
+				// hit area, but no longer shifts the baseline.
+				display: inline;
+				padding: 0.3em 0.6em 0.3em 0;
+			}
+		}
 	}
 }
 
 
 .copyright {
 	font-style: italic;
-	margin: 1.6em 0 0.6em;
-	font-size: 0.8em;	
+	margin: 0 0 0.6em;
+	font-size: 0.8em;
 	@media screen and (min-width: $breakpoint1) {
 		width: 33%;
-		display: inline-block;
-		*display: inline;
-		*zoom: 1;
 	}
 }
 
