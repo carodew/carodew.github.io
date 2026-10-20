@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /Caseflow-build-hearing-schedule-discovery/
+permalink: /caseflow-build-hearing-schedule-discovery/
 short-title:  "Caseflow build hearing schedule discovery"
 long-title: "Caseflow build hearing schedule discovery"
 categories: ux

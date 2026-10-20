@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /Caseflow-virtual-hearings/
+permalink: /caseflow-virtual-hearings/
 short-title:  "Caseflow virtual hearings design"
 long-title: "Caseflow virtual hearings design"
 categories: ux
