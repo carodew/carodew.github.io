@@ -4,8 +4,6 @@ permalink: /caseflow-build-hearing-schedule-discovery/
 short-title:  "Caseflow build hearing schedule discovery"
 long-title: "Caseflow build hearing schedule discovery"
 categories: ux
-thumbnail: "caseflow-thumb@2x.png"
-mobile-image: "caseflow-thumb@3x.png"
 img-path: '../img/'
 ---
 
