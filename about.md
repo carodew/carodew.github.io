@@ -10,7 +10,7 @@ img-path: "../img"
 		<h2>About</h2>
 	</div>
 	<div class="section-content">
-		<p>I’m a principal product designer and researcher. I turn ambiguous, high-stakes problems into actionable, evidence-based strategy and direction. I use progressive de-risking to explore and vet new ideas. I specialize in streamlining complex business processes, accessibility, and inclusive design and research. 
+		<p>I’m a principal designer and researcher working in civic tech. I turn ambiguous, high-stakes problems into actionable, evidence-based strategy and direction. I use progressive de-risking to explore and vet new ideas. I specialize in streamlining complex business processes, making products accessible, and conducting inclusive design and research.
 </p>
 
 <p>As a generalist I’m comfortable doing qualitative and quantitative research from discovery to evaluation, and designing complex end-to-end flows to detailed interaction design. 
