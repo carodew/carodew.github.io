@@ -1,12 +1,16 @@
 /* ================== Colors ================== */
 
+// Contrast ratios below are measured against $offwhite. Recheck them if that
+// value changes: the figures recorded here before were computed against the
+// old #fdfdfd and overstated every one of them.
+
 $offwhite: #E7E7E7;
-$red: #c02710; // #DF2F12 contrast ratio 4.53:1 on $offwhite 
+$red: #c02710; // 4.80:1 on $offwhite - passes AA for text, little headroom
 
 $verylightgray: #EAE8E8; // secondary background
-$lightGray: #C5BDC1; // not sufficient contrast for text
-$medGray: #656363; // contrast ratio 9.54:1 on $offwhite
-$darkGray: #262525; // contrast ratio 15.03:1 on $offwhite
+$lightGray: #C5BDC1; // 1.49:1 on $offwhite - decorative only, never text
+$medGray: #656363; // 4.83:1 on $offwhite - passes AA for text, little headroom
+$darkGray: #262525; // 12.36:1 on $offwhite - passes AAA
 
 
 // Color Assignments 
