@@ -57,31 +57,19 @@ $on-laptop:        800px;
 
 @import
 
-// Font Awesome Stylesheets
-
-				"fa-variables",
-				"fa-mixins",
-				"fa-path",
-				"fa-core",
-				"fa-bootstrap",
-				"fa-extras",
-				"fa-icons",
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 				"mixins-vars",
-				"css-reset", 
+				"css-reset",
 				"typography",
 				"skill-pills",
 				"header",
 				"footer",
 				"structure",
-				"navigation", 
-				"responsive", 
+				"navigation",
+				"responsive",
 				"home",
 				"about",
 				"project",
-				"social",
 				"images",
 				"print"
