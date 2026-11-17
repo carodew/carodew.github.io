@@ -16,7 +16,7 @@ img-path: "../img"
 <p>As a generalist I’m comfortable doing qualitative and quantitative research from discovery to evaluation, and designing complex end-to-end flows to detailed interaction design. 
 </p>
 <div class="a-resume" >
-	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" onclick="_gaq.push(['_trackEvent', 'Resume Download', 'Download', 'Button']);" id="resume">R&eacute;sum&eacute; (PDF)</a>
+	<a href="{{ page.img-path }}/Carolyn-Dew-Resume.pdf" id="resume">R&eacute;sum&eacute; (PDF)</a>
 		</div>
 	</div>
 </section>
@@ -30,7 +30,7 @@ img-path: "../img"
 			<br>(she/her)
 			</p>
 			<p>
-				<a href="mailto:carolyn@carolyndew.com" title="Go ahead, click already. I&rsquo;m nice!" onclick="_gaq.push(['_trackEvent', 'Contact','Click', 'Email']);">carolyn@carolyndew.com</a>
+				<a href="mailto:carolyn@carolyndew.com" title="Go ahead, click already. I&rsquo;m nice!">carolyn@carolyndew.com</a>
 		</p>
 	</div>
 </section>
