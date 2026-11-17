@@ -13,13 +13,28 @@ layout: default
 		<div class="project">
 			<h1>{{ page["h1-and-link-title"] }}</h1>
 			{{ content }}
+			{% comment %}
+			  page.previous and page.next are Jekyll's own chronological pointers,
+			  which have nothing to do with the order field. Walk the same list the
+			  homepage uses so the two agree: "previous" is the entry above on the
+			  homepage, "next" the entry below.
+			{% endcomment %}
+			{% assign ordered = site.posts | sort: "order" | reverse %}
+			{% assign prevProject = false %}
+			{% assign nextProject = false %}
+			{% assign passed = false %}
+			{% for project in ordered %}
+			  {% if passed and nextProject == false %}{% assign nextProject = project %}{% endif %}
+			  {% if project.url == page.url %}{% assign passed = true %}{% endif %}
+			  {% unless passed %}{% assign prevProject = project %}{% endunless %}
+			{% endfor %}
 			<div class="prev-next-nav">
-			  {% if page.previous.url %} 
-			  <span class="prev">Previous: <a href="{{page.previous.url}}">{{page.previous["h1-and-link-title"]}}</a> </span>
-			  {% endif %} 
-			  {% if page.next.url %} 
-			  <span class="next">Next: <a href="{{page.next.url}}">{{page.next["h1-and-link-title"]}}</a></span>
-			  {% endif %} 
+			  {% if prevProject %}
+			  <span class="prev">Previous: <a href="{{ prevProject.url }}">{{ prevProject["h1-and-link-title"] }}</a> </span>
+			  {% endif %}
+			  {% if nextProject %}
+			  <span class="next">Next: <a href="{{ nextProject.url }}">{{ nextProject["h1-and-link-title"] }}</a></span>
+			  {% endif %}
 			</div>
 		</div>
 
