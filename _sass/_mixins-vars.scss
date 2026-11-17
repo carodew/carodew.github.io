@@ -4,8 +4,10 @@
 // value changes: the figures recorded here before were computed against the
 // old #fdfdfd and overstated every one of them.
 
-$offwhite: #E7E7E7;
+$offwhite: #F5F4F2;
+//$gray: #E7E7E7;
 $red: #c02710; // 4.80:1 on $offwhite - passes AA for text, little headroom
+$green: #0A6855;
 
 $verylightgray: #EAE8E8; // secondary background
 $lightGray: #C5BDC1; // 1.49:1 on $offwhite - decorative only, never text
@@ -22,7 +24,7 @@ $color-secondary-background: $verylightgray;
 $color-base-text: $darkGray; 
 $color-light-text: $medGray;
 
-$color-primary: $red;
+$color-primary: $green;
 $color-primary-light: lighten($color-primary, 15%);
 $color-primary-very-light: lighten($color-primary, 50%);
 
