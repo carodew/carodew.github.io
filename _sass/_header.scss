@@ -68,6 +68,13 @@ header .nav-top {
 	@media screen and (min-width: $breakpointColumns) {
 		grid-column: 2; // sits where the content column starts
 		margin-left: 0;
+		// Opt out of the grid's baseline alignment. The logotype is a PNG, so
+		// the h1 has no real baseline for the grid to use and falls back to its
+		// invisible font strut - which dragged the artwork about 20px below this
+		// tagline. With the tagline out of it the h1 sits at the row start,
+		// where the 1.8em margin above already lines the two up.
+		// Revisit if the logotype becomes live text (#71).
+		align-self: start;
 	}
 }
 
