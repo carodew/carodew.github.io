@@ -8,16 +8,6 @@
 		}
 		&:hover { color: $color-base-text; }
 	}
-	.project-meta {
-		display: block;
-		margin-left: 0;
-		line-height: 1.8em;
-		ul li { margin-bottom: 0.6em; }
-		a { padding-top: 1em; }
-		.skill-pills {
-			@media screen and ( min-width: $breakpoint1 ) { display: inline; }
-		}
-	}
 	p {
 		line-height: 1.6em;
 		font-family: $serifStack;
@@ -28,14 +18,16 @@
 	}
 }
 
-	.project-contributions {
-			strong, 
-			ul, 
-			li { vertical-align: baseline; }
-	}
+// Previous / next links at the foot of a project page.
+// Moved here from _navigation.scss, which was otherwise entirely dead.
 
-.proprietary .prev-next-nav { display: none; }
+.prev-next-nav {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid $lightGray;
+	font-size: 0.8em;
+}
 
-
+.next { float: right; }
 
 /* ================== Project // EOF ================== */

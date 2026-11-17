@@ -34,27 +34,6 @@ header {
 	margin: 0.6em 0;
 }
 
-header .nav-top {
-	@media screen and (min-width: $breakpointColumns) {
-		grid-column: 1; // same column as the logotype, on the row beneath it
-		margin-left: 0;
-		text-align: right;
-		ul {
-			margin-right: 0;
-			> li {
-				float: none; // floated items ignore text-align
-				display: inline-block;
-				&:last-child {
-					// Drop the trailing offsets so the last link's text edge
-					// meets the column, rather than its padding doing so.
-					margin-right: 0;
-					> a { padding-right: 0; }
-				}
-			}
-		}
-	}
-}
-
 .roles {
 	display: none;
 	@media screen and (min-width: 53.75em) { //  860em/16
@@ -78,68 +57,7 @@ header .nav-top {
 	}
 }
 
-nav {
-		margin-left: -0.6em;
-		overflow: hidden;
-		font-family: $sansStack;
-		ul {
-			position: relative;
-			left: 0;
-			display: block;
-			clear:both;
-			margin: 0 10px 0 0;
-			font-family: $sansStack;
-			list-style: none;
-			//li + li { margin-top: 0; }
-			> li {
-				float: left;
-				margin: 5px;
-				> a, a.contact {
-					display: block;
-					float: none;
-					padding: 0.3em 0.6em;
-					border-top:0;
-					margin-top:0;
-					color: $color-default-link;
-					text-decoration: none;
-					text-shadow: none;
-					font-style:italic;
-					@include commonTransition (color, 0.3s); 
-					&:hover { color:$color-default-hover; }
-				}
-			}
-		}
-	}
-	
-.global-nav, 
-.footer-nav {
-	font-weight: 400;
-	font-size: 1.1em;
-} 
-.portfolio-nav {
-	margin-left: 0.15em; // optical alignment
-}
-
-.about 
-.portfolio-nav { display: none; }
-
-.portfolio-nav > li > a { font-size: 0.9em; }
-
-
-.p-design .li-design > a, 
-.p-about .li-about	> a,
-.p-contact .li-contact > a { color: $color-default-hover; }
-
-.p-about .portfolio-nav, 
-.p-contact .portfolio-nav, 
-.p-project .portfolio-nav { display: none; }
-
-
-.proprietary-statement { 
-	padding: 1rem;
-	margin: 1rem 0;
-	max-width: 50em;
-	background-color: $color-primary-very-light;
-	border: 1px dashed $color-primary;
-	@include borderRadius(1rem);
-}
+// The nav rules that lived here - the generic `nav` block, .global-nav,
+// .footer-nav, .portfolio-nav, the .li-* items and the .p-* body-class
+// variants - went with the navigation itself. So did .proprietary-statement,
+// which no page carries. All recoverable from git history if a nav returns.

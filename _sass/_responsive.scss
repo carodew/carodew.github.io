@@ -1,39 +1,14 @@
 
-/* ====== Phones and small screens ====== */
+/* ====== Visibility helpers ====== */
 
-.hidden {
-	display: none;
-	visibility: hidden;
-}
+// The .hidden / .visible-phone / -tablet / -desktop family went with the
+// redesign - nothing in the markup used them any more. Only these two remain:
+// .hidden-accessible for screen-reader-only text, and .visible-print, which
+// _print.scss flips back on when printing.
 
 .hidden-accessible {
 	position: absolute;
 	left: -9999em;
 }
 
-.hidden-phone    { display: none !important; }
-.visible-phone   { display: inherit !important; }
-.visible-tablet  { display: none !important; }
-.visible-desktop { display: none !important; }
-.visible-print   { display: none; }
-
-/* ====================== Tablet sizes, roughly ====================== */
-
-@media screen and (min-width: $breakpoint1) and (max-width: $breakpoint2) { 
-	.hidden-tablet   { display: none !important; }
-	.hidden-phone    { display: inherit !important; }
-	.visible-tablet  { display: inherit !important; }
-	.visible-desktop { display: none !important ; }
-	.visible-phone   { display: none !important; }
-}
-
-/* ====================== Laptops and desktops ====================== */
-
-@media screen and (min-width: $breakpoint2) { 
-	.hidden-phone    { display: inherit !important; }
-	.hidden-desktop  { display: none !important; }
-	.hidden-tablet   { display: inherit !important; }
-	.visible-desktop { display: inherit !important; }
-	.visible-phone   { display: none !important; }
-	.visible-tablet  { display: none !important; }
-}
+.visible-print { display: none; }

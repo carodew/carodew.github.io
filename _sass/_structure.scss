@@ -22,12 +22,16 @@ header nav {
 	}
 }
 
+// Moved here from _home.scss, which was otherwise entirely dead. Unconditional
+// rather than inside the media query below, which is how _home.scss had it -
+// the border shows at every width.
+.portfolio { border-top: 1px solid $color-base-text; }
+
 @media screen and ( min-width: $breakpoint1 ) { // top border on each section
-	.portfolio, 
-	.contact, 
-	.resume, 
-	.project-detail, 
-	.skills { border-top: 1px solid $color-base-text; }
+	.portfolio,
+	.contact,
+	.resume,
+	.project-detail { border-top: 1px solid $color-base-text; }
 }
 
 .section-label {
@@ -63,7 +67,7 @@ header nav {
 // content's first line whether that content starts with a paragraph or a
 // list. Known exception: .skill-pills, whose inline-block items give the grid
 // a baseline that does not match where the pill text sits.
-.portfolio, .contact, .resume, .project-detail, .skills {
+.portfolio, .contact, .resume, .project-detail {
 	margin-top: 20px;
 	@include pageColumns;
 }

@@ -10,48 +10,10 @@ footer {
 }
 
 // Same container and columns as the header and the body sections, so the
-// footer nav lands on the label column and lines up with the header nav.
+// footer lines up on the same left edge and gutter.
 .footer-inner {
 	@include pageColumns;
 }
-
-#bottom-nav {
-	*display: inline;
-	*zoom: 1;
-	@media screen and (min-width: $breakpointColumns) {
-		grid-column: 1;
-		margin-left: 0;
-		text-align: right;
-		// A grid item whose overflow is not visible gets a baseline synthesized
-		// from its border box instead of its text. The floats this was
-		// containing are gone, so it can go.
-		overflow: visible;
-		ul { margin: 0; }
-		> ul > li {
-			float: none; // floated items ignore text-align, and produce no line box
-			display: inline-block;
-			// Horizontal spacing matches the global 5px so the gaps match the
-			// header; the vertical half is dropped because a vertical margin on
-			// an inline-block shifts it within the line box and breaks the
-			// baseline. Same reason line-height is not left at the global 1.6em,
-			// which at this font size is a 28px line box.
-			margin: 0 5px;
-			line-height: inherit;
-			> a {
-				// Inline rather than block: vertical padding still grows the
-				// hit area, but no longer shifts the baseline.
-				display: inline;
-			}
-			&:last-child {
-				// Trailing offsets off, so the last link's text edge meets the
-				// column rather than its padding doing so.
-				margin-right: 0;
-				> a { padding-right: 0; }
-			}
-		}
-	}
-}
-
 
 .copyright {
 	font-style: italic;
