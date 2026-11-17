@@ -3,7 +3,7 @@ layout: project
 permalink: /test-draft/
 page-title: "test draft"
 h1-and-link-title: "Test draft"
-order: 0
+order: 6
 blurb: "This is a test."
 img-path: '../img/'
 ---

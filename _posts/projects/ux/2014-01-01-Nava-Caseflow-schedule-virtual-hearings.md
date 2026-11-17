@@ -3,7 +3,7 @@ layout: project
 permalink: /caseflow-virtual-hearings/
 page-title: "Caseflow virtual hearings design"
 h1-and-link-title: "Caseflow virtual hearings"
-order: 4
+order: 2
 blurb: "Supporting the Board of Veteran Appeals to conduct remote hearings during COVID and beyond."
 img-path: '../img/'
 ---
