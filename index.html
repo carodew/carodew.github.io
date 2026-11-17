@@ -26,8 +26,21 @@ img-path: "../img"
 	</div>
 	<div class="section-content">
 		<ul>
-		{% comment %} Highest order first, so a new project gets the next number up and lands at the top. {% endcomment %}
-		{% assign projects = site.posts | sort: "order" | reverse %}
+		{% comment %}
+		  Highest order first, so a new project gets the next number up and
+		  lands at the top.
+
+		  site.proprietary only exists when serving with _config-local.yml,
+		  which defines that collection. The published build has no such
+		  collection, so this falls through to site.posts alone and nothing
+		  proprietary can leak into it.
+		{% endcomment %}
+		{% if site.proprietary %}
+			{% assign projects = site.posts | concat: site.proprietary %}
+		{% else %}
+			{% assign projects = site.posts %}
+		{% endif %}
+		{% assign projects = projects | sort: "order" | reverse %}
 		{% for project in projects %}
 			<li>
 				<a href="{{ project.permalink }}">{{ project["h1-and-link-title"] }}</a>: {{ project.blurb }}

@@ -4,25 +4,56 @@ Portfolio site, created in [Jekyll](http://jekyllrb.com).
 
 ## Notes to self:
 
-To run locally: `jekyll serve --config _config-local.yml` or `jekyll serve  --config _config-local.yml --drafts`
+### Running it locally
 
-Toggle the baseurl in `_config.yml` as needed.
+```
+bundle exec jekyll serve --config _config.yml,_config-local.yml --drafts --livereload
+```
 
-Git is set to ignore all this so I don't accidentally share proprietary work:
+`--config` merges left to right
+`_config-local.yml` overlays the site URL and switches on the proprietary collection.
 
-- `index-LOCAL-ONLY.html`
-- `_proprietary/`
-- `img/proprietary/`
-- `_posts/_proprietary/`
+`bundle exec`: Gemfile pins Jekyll 3.9.5 and a set of dependency
+versions that work with the system Ruby (2.6.10).
 
-Git will also ignore the old stuff that I once thought was cool but is now embarrassing:
+`--drafts` includes `_drafts/`. 
 
-- `_removed`
+`--livereload` refreshes the browser on save.
+
+### To add a case study
+
+Create a post in `_posts/projects/ux/` named `YYYY-MM-DD-slug.md`. Front matter:
+
+```yaml
+layout: project
+permalink: /lowercase-slug/
+page-title: "Shown in the browser tab"
+h1-and-link-title: "Page heading, and the link text on the homepage"
+order: 7
+blurb: "The sentence after the link on the homepage."
+img-path: '../img/'
+```
+
+- **`order` sorts descending** Newer projects get higher numbers 
+- **Permalinks are lowercase.** GitHub Pages is case-sensitive
+
+### Where things live
+
+| folder | what | in git? |
+|---|---|---|
+| `_posts/projects/ux/` | published case studies | yes |
+| `_drafts/` | work in progress; needs `--drafts` to appear | yes |
+| `_proprietary/` | proprietary work, local presentation only | **no** |
+| `img/proprietary/` | images for the above | **no** |
+| `_removed/` | retired files kept to hand | **no** |
+
+### Proprietary work
+
+For presenting in person from the local server. These are gitignored.
+
+`_proprietary/`: add case studies here. Check ordering on homepage.
+`img/proprietary/`: images go here.
 
 ### Images
 
-When I add a new project I need to add images. Specifically:
-
-- Thumbnail – represents the project on the homepage. 157 × 102. Export at 2x size from Sketch. Filename is `[PROJECT]-thumb@2x.png`
-- Mobile view – homepage images min 366 x 216. Export at 3x size from Sketch.
-- Project page – most images are 741 x whatever height. usually 402. export at 2x
+- Project page images – most are 741 × whatever height, usually 402. Export at 2x.

@@ -70,4 +70,9 @@ $on-laptop:        800px;
 				"about",
 				"project",
 				"images",
-				"print"
+				"print"{% if site.proprietary %},
+
+// Local-only. site.proprietary exists only when serving with
+// _config-local.yml, so these rules never reach the published stylesheet.
+
+				"proprietary"{% endif %}

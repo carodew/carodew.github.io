@@ -1,0 +1,18 @@
+// Proprietary case studies - local presentation only.
+//
+// Imported from css/main.scss only when site.proprietary exists, which is
+// when serving with _config-local.yml. The published stylesheet never
+// includes these rules, so production carries no trace of the flow.
+
+.proprietary-statement {
+	padding: 1rem;
+	margin: 1rem 0;
+	max-width: 50em;
+	background-color: $color-primary-very-light;
+	border: 1px dashed $color-primary;
+	@include borderRadius(1rem);
+}
+
+// Prev/next walks site.posts, which never contains proprietary work - so on a
+// proprietary page the links would point somewhere unrelated. Hide them.
+.proprietary .prev-next-nav { display: none; }

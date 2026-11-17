@@ -2,16 +2,23 @@
 layout: default
 ---
 
-<section class="project-detail">
+{% comment %}
+  Pages from the _proprietary collection get an extra class, which hides the
+  prev/next links. That collection only exists when serving with
+  _config-local.yml, so on the published site this is always empty.
+{% endcomment %}
+<section class="project-detail{% if page.collection == 'proprietary' %} proprietary{% endif %}">
 	<div class="section-label">
-<!-- 		<a class="back round-nav-button" href="../" title="Back to main">
-			<span class="hidden-accessible">Back to main</span> 
-			<i class="icon-arrow-left"></i>
-		</a> -->
 	</div>
 	<div class="section-content">
 		<div class="project">
 			<h1>{{ page["h1-and-link-title"] }}</h1>
+			{% if page.collection == 'proprietary' %}
+			<p class="proprietary-statement">
+				This work is proprietary and is not published. It is shown here for
+				in-person discussion only.
+			</p>
+			{% endif %}
 			{{ content }}
 			{% comment %}
 			  page.previous and page.next are Jekyll's own chronological pointers,
