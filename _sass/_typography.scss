@@ -76,7 +76,7 @@ ul.unstyled, ol.unstyled {
 
 a {
 	color: $color-default-link;
-	text-decoration: none;
+	text-decoration: underline;
 	@include commonTransition(color, 0.3s); 
 	//@include commonTransition (background-color, 0.3s);
 	&:hover, &:active {
