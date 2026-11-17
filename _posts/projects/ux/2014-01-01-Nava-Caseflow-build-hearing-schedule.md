@@ -1,9 +1,10 @@
 ---
 layout: project
 permalink: /caseflow-build-hearing-schedule-discovery/
-short-title:  "Caseflow build hearing schedule discovery"
-long-title: "Caseflow build hearing schedule discovery"
-categories: ux
+page-title: "Caseflow build hearing schedule discovery"
+h1-and-link-title: "Caseflow hearings for Veterans Affairs"
+order: 3
+blurb: "Targeted discovery research and process mapping to understand how hearing schedules are created for the Board of Veteran Appeals."
 img-path: '../img/'
 ---
 

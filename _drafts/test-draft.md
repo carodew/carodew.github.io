@@ -1,9 +1,10 @@
 ---
 layout: project
-permalink: /caseflow-build-hearing-schedule-discovery/
-short-title: "test draft"
-long-title: "test draft"
-categories: ux
+permalink: /test-draft/
+page-title: "test draft"
+h1-and-link-title: "Test draft"
+order: 0
+blurb: "This is a test."
 img-path: '../img/'
 ---
 
