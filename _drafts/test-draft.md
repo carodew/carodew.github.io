@@ -1,64 +1,49 @@
 ---
-layout: project
-permalink: /test-draft/
-page-title: "test draft"
-h1-and-link-title: "Test draft"
-order: 6
-blurb: "This is a test."
+layout: project  
+permalink: /VA-disability-claims-evidence-discovery/  
+page-title: "Sense-making for VA disability claims"  
+h1-and-link-title: "Sense-making for VA disability claims"  
+order: 7  
+blurb: "Tackling an ambiguous problem space to improve how we guide veterans to provide evidence in support of their disability claims."  
 img-path: '../img/'
 ---
 
-## Brief ##
+## Summary
 
-I worked as a senior designer and researcher on Caseflow Hearings (a sub-product of Caseflow) in an individual contributor role. Caseflow Hearings supports the scheduling and preparation for hearings on veterans appeals. I was on a team with three other designers (the Hearings design lead, one early-career, and one mid-career designer) embedded within a cross-functional agile team.
+When veterans apply for disability benefits from the VA, they need to provide evidence that supports their claim. Veterans often struggle to understand what documents they should provide, what the VA will retrieve on its own, and, equally important, what evidence is not required and would complicate claim processing downstream. The laws and policies that govern what evidence is required to grant a claim are complex and vary between different disabilities and types of claims. 
 
-The process for building the hearing schedule for the months ahead (that is, determining which days the Board would hold hearings and when Veterans Law Judges (VLJs) and hearing coordinators would be available) was a huge point of frustration for Hearings leadership. The original functionality had been built in a period of a few weeks in 2019 to accommodate a last minute change in how the Board manages hearings, and improvements had not been prioritized until spring of 2021.
+Our clients at the VA wanted to make improvements to this process, but weren’t sure where to start. They asked our team to explore the disconnect between how veterans thought about the evidence needed to support their claims, and what evidence claims processors needed. The goal was to create a prioritized list of potential improvements so we could move forward. 
 
-We knew that this process was a huge pain point for hearing branch leadership but didn’t fully understand the shape of the problem or the best opportunities to make improvements. Additionally, our product manager suspected that even though this work was prioritized now, that could change before we had a chance to implement a wholesale redesign of the process. He was specifically interested in finding small, incremental improvements that the team could implement in smaller chunks, and which would be easier to get approval to work on.
+We did a scoped discovery effort with veterans, Veteran Service Organizations (VSOs, nonprofit organizations who help veterans submit claims to the VA), and VA claims processors (Veteran Service Representatives, or VSRs). Based on our findings, we brainstormed potential solutions and prioritized those efforts so we could focus on the highest leverage interventions. 
 
-Our team of four designers conducted a targeted discovery research study to better understand this problem and where our potential intervention points would be. I served as design’s ‘feature owner’ for this study – the primary design point of contact for the team in shaping the work and driving it forward. I was working with two other designers, both of whom had limited experience conducting discovery research and ensuring those findings were relevant to upcoming product decisions.
+## Results
 
-We had about eight weeks to understand the current problem space and communicate our learnings out to the broader team and VA stakeholders. But because our product manager needed to begin mapping out the next quarter’s roadmap before the end of our study, we knew we needed to have a near complete understanding within <i>six</i> weeks. To that end, I requested the product manager and lead engineer attend as many user sessions as possible so they would develop an understanding of the problem in real time.
+We delivered a prioritized list of potential improvements – backed up by qualitative and quantitative data – so that our client can make strategic decisions on what to pursue.
 
-I also recommended we forgo writing a traditional research report in favor of capturing our insights into a service blueprint. This way we could co-create the blueprint during our user interviews to quickly build our understanding and keep the conversations productive, and we would end with a durable artifact that could be picked up by a future team quickly should development work be postponed.
+From this list, we were able to conduct rapid investigations (4-weeks or less) into several ideas to prove or disprove the feasibility, progressively de-risking our clients’ investment into each one. For a quick-win we delivered on providing better document labeling to VSRs for speedier and more accurate claims processing, a need identified during this research.
 
-As we went, we learned that a traditional service blueprint did not fit our communication needs  – the frontstage and backstage delineations did not make sense for a wholly internal process. We pivoted the format a journey map that better represented our insights.
+## My role
 
-<figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-workflow@2x.png" alt="A user journey map showing all the steps required to build the hearing schedule, highlighting pain points, people involved, tools used, and additional notes." />
-	<figcaption>Main research deliverable: user journey map
-	</figcaption>
-	<a href="{{ page.img-path }}/BuildHearingSched-workflow-fullsize.png">See full size journey map (PNG)</a>
-</figure>
+I served as a co-lead designer/researcher. We operated within a cross-functional product team with a product manager and several engineers. 
 
-## What I did ##
+## Constraints
 
-* Shaped the research plan and course of the research study – including multiple co-creation sessions with our core users and several interviews with VLJs, who were impacted by the build hearing schedule process.
-* Provided guidance to the team for what kinds of insights to focus on during user interviews and co-creation sessions.
-* Introduced ‘Synthesis Fridays’ – where the research team  would get together to reflect on that week’s learnings and determine if we needed to pivot in the following week.
-* Provided guidance to designers on the team to analyze interview transcripts for key insights and synthesize those into the user journey.
-* Supported our junior designer in introducing an ‘equity pause’ to reflect on our own biases and ensure we treated our research participants equitably.
-<figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-equity@2x.png" alt="Output from an equity pause workshop where research participant groups are identified and placed on a heirarchy of power, with notes on how we can make their participation more equitable"/>
-	<figcaption>Output from an equity pause workshop
-	</figcaption>
-</figure>
-* Facilitated a workshop to guide the team in prioritizing which pain points would be the most important to solve first.
-<figure>
-	<img src="{{ page.img-path }}/BuildHearingSched-priortization@2x.png" alt="A foursquare used as part of a workshop to prioritize pain points in the build hearing schedule against impact on hearings held as scheduled (on the y-axis) and organizational risk (on the x-axis). Participants in the workshop indicated where they thought a card should go with an animal icon and then placement was discussed until the team came to a consensus."/>
-	<figcaption>Output from a prioritization workshop (detail)</figcaption>
-</figure>
+* The VA operates within a complex system of laws, regulations, and case law that govern how they process disability benefit claims, and we needed to adhere to those policies.   
+* Similarly, the VA is cautious about providing guidance to veterans that might lead them to assume other evidence is not acceptable or helpful.    
+* We had limited time to talk to VSRs, as they have strict production requirements that can preclude their participation in user research.   
+* Our inability to directly change downstream (and in some cases, upstream) systems limited the kinds of projects we could take on.   
+* In researching with veterans, we had to be careful not to provide actual guidance on how to file their claims, for both legal and ethical reasons. 
 
-## Key Techniques and deliverables ##
-<ul class="skill-pills">
-<li>discovery research</li>
-<li>collaborative design</li>
-<li>user interviews</li>
-<li>journey maps</li>
-<li>prioritization</li>
-<li>workshop facilitation</li>
-</ul>
+## What we did
 
-## Results ##
-As predicted, the Board shifted its priorities before the next quarter arrived and improvements to this process were pushed further out into the future. I followed up with our product manager, who expressed appreciation for our research and deliverable, and stated that through our research he gained several ideas for how to break out smaller chunks of work that could be more easily slotted into the road map.
+* Conducted open-ended research to understand the problem space: [2024 05 Evidence submission research findings.docx](https://docs.google.com/document/d/1-q14NRVJPJfNFQ4ps8S1pJGbyUvNsfcv/edit#heading=h.yczgyrie38lr)[Evidence Improvement Research.png](https://drive.google.com/file/d/1GxBVoviiniDq0XqmCS-zi5DLttU_1T4Z/view?usp=sharing)[Claims Evidence (July 2024) Research Synthesis.png](https://drive.google.com/file/d/1sn5aOm2QhDWJELw6_O5wQgH5BTBEk_H3/view?usp=sharing)  
+* Brainstormed potential solutions to problems: [Evidence Improvement Brainstorm.png](https://drive.google.com/file/d/1iK1s_yY5PZqFIMrsQcIaxXu09Fnx-aDT/view?usp=sharing)[AI document parser flow for VA disability claims.png](https://drive.google.com/file/d/1s5Dj5fH22h7ZCQLI7N97Z9xCcuOOGqPf/view?usp=sharing)  
+* Prioritized solutions: [Evidence Improvement Brainstorm.png](https://drive.google.com/file/d/1iK1s_yY5PZqFIMrsQcIaxXu09Fnx-aDT/view?usp=sharing)  
+* Developed plans for evaluating top ranking ideas: [Evidence Planning.png](https://drive.google.com/file/d/1ZkJzI1moHCLOzj3uC2lZTCo8QnYg9rSs/view?usp=sharing)  
+* Reflected on the effectiveness of our research approach: [EOC Veteran research retro.png](https://drive.google.com/file/d/1EGoesvqy3LvLTfWAxVLlnSs6D5RlGdZR/view?usp=sharing)
 
+## What I learned
+
+* When generating new ideas in a high-uncertainty environment, it’s critical to establish specific checkpoints to evaluate whether an idea is still worth pursuing.   
+* The inability to directly control downstream systems severely limited the interventions we could pursue – ideally one team is responsible for the full end-to-end service and can prioritize efforts across teams.   
+* It’s important to pursue both quick wins and big bets. Focusing only on quick wins often limits you to smaller, incremental improvements at the expense of larger benefits. Focusing only on big bets runs the risk of never shipping anything. 
