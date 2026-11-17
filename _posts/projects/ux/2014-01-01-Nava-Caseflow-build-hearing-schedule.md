@@ -49,7 +49,7 @@ As we went, we learned that a traditional service blueprint did not fit our comm
 	<figcaption>Output from a prioritization workshop (detail)</figcaption>
 </figure>
 
-## Key Techniques and deliverables ##
+## Key techniques and deliverables ##
 <ul class="skill-pills">
 <li>discovery research</li>
 <li>collaborative design</li>
