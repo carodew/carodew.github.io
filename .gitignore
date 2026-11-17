@@ -3,7 +3,6 @@ _site/
 index-LOCAL-ONLY.html
 _proprietary/
 img/proprietary/
-_posts/_proprietary/
 _removed/
 _config-local.yml
 jekyll-command.txt
